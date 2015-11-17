@@ -5,21 +5,23 @@ var User = require('../models/user');
 module.exports = function(app, passport) {
 
     app.get('/', function(req, res){
-        res.render('index.ejs')
+        res.render('index.ejs',
+            { user : req.user})
     });
 
     app.get('/blog', function(req, res){
-        res.render('blog.ejs')
+        res.render('blog.ejs',
+            { user : req.user})
     });
-    
+
     app.post('/signup', passport.authenticate('local-signup', {
-        successRedirect : '/profile', // redirect to the secure profile section
+        successRedirect : '/blog', // redirect to the secure profile section
         failureRedirect : '/signup', // redirect back to the signup page if there is an error
         failureFlash : true // allow flash messages
     }));
 
     app.post('/login', passport.authenticate('local-login', {
-        successRedirect : '/profile', // redirect to the secure profile section
+        successRedirect : '/blog', // redirect to the secure profile section
         failureRedirect : '/login', // redirect back to the signup page if there is an error
         failureFlash : true // allow flash messages
     }));
@@ -43,7 +45,7 @@ module.exports = function(app, passport) {
     });
 
     app.get('/post', isAdmin, function(req, res) {
-        res.render('post.ejs', {
+        res.render('blogForm.ejs', {
             user : req.user // get the user out of session and pass to template
         });
     });
@@ -73,7 +75,8 @@ app.get('/admin', isAdmin, function(req, res) {
                 return console.log(err);
             } else {
                 res.render('adminProfile.ejs', {
-                    users : users
+                    users : users,
+                    user : req.user
             });
         }
     });
