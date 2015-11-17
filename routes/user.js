@@ -7,6 +7,10 @@ module.exports = function(app, passport) {
     app.get('/', function(req, res){
         res.render('index.ejs')
     });
+
+    app.get('/blog', function(req, res){
+        res.render('blog.ejs')
+    });
     
     app.post('/signup', passport.authenticate('local-signup', {
         successRedirect : '/profile', // redirect to the secure profile section
