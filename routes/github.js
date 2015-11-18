@@ -13,6 +13,7 @@ fetchGithubEvents = function(req,res){
       		}
     	);
 	    res.json(myEvents);
+	    console.log("hello");
 	  })
 	  .catch(function (response) { 
 	    console.log(response);
