@@ -9,7 +9,7 @@ fetchGithubEvents = function(req,res){
 	  .then(function (response) {
 		var myEvents = response.data.map(function(g){
       		return {
-        		"id": g.id, "repo": g.repo.name, "payload": g.payload.commits}
+        		"id": g.id,"repo": g.repo.name, "payload": g.payload.commits}
       		}
     	);
 	    res.json(myEvents);

@@ -4,10 +4,12 @@ var webpack = require('webpack');
 module.exports = {
   devtool: 'source-map',
   entry: { 
-    home: ['webpack-hot-middleware/client',
+    home: [
     './client/blogIndex'], 
-    blogForm: ['webpack-hot-middleware/client',
-    './client/blogFormIndex']
+    blogForm: [
+    './client/blogFormIndex'],
+    index: [
+    './client/index']
   },
     output: {
     path: path.join(__dirname, 'static'),

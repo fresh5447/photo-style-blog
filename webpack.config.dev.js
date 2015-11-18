@@ -7,7 +7,9 @@ module.exports = {
     home: ['webpack-hot-middleware/client',
     './client/blogIndex'], 
     blogForm: ['webpack-hot-middleware/client',
-    './client/blogFormIndex']
+    './client/blogFormIndex'],
+    index: ['webpack-hot-middleware/client',
+    './client/index']
   },
     output: {
     path: path.join(__dirname, 'static'),
