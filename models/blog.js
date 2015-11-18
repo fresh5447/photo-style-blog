@@ -4,7 +4,9 @@ var blogSchema = new mongoose.Schema({
 	body: String,
 	author: String,
 	img: String,
-	tags: Array
+	tags: Array,
+	comments: [{ body: String, date: Date }],
+	date: { type: Date, default: Date.now }
 });
 
 mongoose.model('Blog', blogSchema);

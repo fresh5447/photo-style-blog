@@ -17,7 +17,7 @@ function filterByTitle(obj) {
 
 router.route('/')
 
-/* GET All Blogs */
+  /* GET All Blogs */
   .get(function(req, res) {
     mongoose.model('Blog').find({}, function(err, blogs){
       if(err){
@@ -53,7 +53,7 @@ router.route('/')
   });
 
 
-  router.route('/:id')
+router.route('/:id')
     .get(function(req, res) {
         mongoose.model('Blog').findById({
             _id: req.params.id
@@ -93,4 +93,44 @@ router.route('/')
         });
     });
 
+
+router.route('/:id/comments')
+    .get(function(req, res) {
+        mongoose.model('Blog').findById({
+            _id: req.params.id
+        }, function(err, blog) {
+            if (err)
+                res.send(err);
+
+            res.send(blog);
+        });
+    })
+
+    // update the bear with this id (accessed at PUT http://localhost:8080/api/bears/:id)
+    .put(function(req, res) {
+    console.log(req.params.title + "-----------------------------------------------------------------REQUEST");
+
+        mongoose.model('Blog').findById({
+            _id: req.params.id
+        }, function(err, blog) {
+          blog.title = req.body.title;
+          blog.body = req.body.body;
+            if (err)
+                res.send(err);
+
+            blog.save();
+            res.json(blog)
+        });
+    })
+    // delete the bear with this id (accessed at DELETE http://localhost:8080/api/blogs/:id)
+    .delete(function(req, res) {
+        mongoose.model('Blog').remove({
+            _id: req.params.id
+        }, function(err, blog) {
+            if (err)
+                res.send(err);
+
+            res.json({ message: 'Successfully deleted' });
+        });
+    });
 module.exports = router;
