@@ -1,0 +1,261 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'axios',
+1 verbose cli   '--save' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.2
+4 verbose install initial load of /Users/fresh/code/mtcs/personal_projects/photo-style-blog/package.json
+5 warn package.json your-blog@1.0.0 No description
+6 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/babel-core/package.json
+7 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/babel-eslint/package.json
+8 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/babel-loader/package.json
+9 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/babel-plugin-react-transform/package.json
+10 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/bcrypt-nodejs/package.json
+11 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/body-parser/package.json
+12 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/browserify/package.json
+13 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/chokidar/package.json
+14 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/connect-flash/package.json
+15 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/cookie-parser/package.json
+16 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/ejs/package.json
+17 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/eslint/package.json
+18 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/eslint-plugin-react/package.json
+19 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/express/package.json
+20 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/express-session/package.json
+21 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/method-override/package.json
+22 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/mongoose/package.json
+23 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/morgan/package.json
+24 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/passport/package.json
+25 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/passport-local/package.json
+26 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/react/package.json
+27 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/react-dom/package.json
+28 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/react-redux/package.json
+29 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/react-router/package.json
+30 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/react-transform-catch-errors/package.json
+31 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/react-transform-hmr/package.json
+32 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/reactify/package.json
+33 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/redbox-react/package.json
+34 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/redux/package.json
+35 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/redux-thunk/package.json
+36 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/rimraf/package.json
+37 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/rx/package.json
+38 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/superagent/package.json
+39 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/vinyl-source-stream/package.json
+40 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/watchify/package.json
+41 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/webpack/package.json
+42 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/webpack-dev-middleware/package.json
+43 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/webpack-hot-middleware/package.json
+44 info package.json bcrypt-nodejs@0.0.3 No license field.
+45 info package.json connect-flash@0.1.1 No license field.
+46 info package.json passport-local@1.0.0 No license field.
+47 info package.json webpack-dev-middleware@1.2.0 No license field.
+48 verbose readDependencies loading dependencies from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/package.json
+49 silly cache add args [ 'axios', null ]
+50 verbose cache add spec axios
+51 silly cache add parsed spec Result {
+51 silly cache add   raw: 'axios',
+51 silly cache add   scope: null,
+51 silly cache add   name: 'axios',
+51 silly cache add   rawSpec: '',
+51 silly cache add   spec: '*',
+51 silly cache add   type: 'range' }
+52 silly addNamed axios@*
+53 verbose addNamed "*" is a valid semver range for axios
+54 silly addNameRange { name: 'axios', range: '*', hasData: false }
+55 silly mapToRegistry name axios
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry uri https://registry.npmjs.org/axios
+59 verbose addNameRange registry:https://registry.npmjs.org/axios not in flight; fetching
+60 verbose request uri https://registry.npmjs.org/axios
+61 verbose request no auth needed
+62 info attempt registry request try #1 at 2:35:30 PM
+63 verbose request id 570ed9e4ed64924b
+64 verbose etag "7ZXJTUNEJDK1Q0X93IPX8CXYG"
+65 http request GET https://registry.npmjs.org/axios
+66 http 304 https://registry.npmjs.org/axios
+67 verbose headers { date: 'Wed, 18 Nov 2015 21:35:30 GMT',
+67 verbose headers   via: '1.1 varnish',
+67 verbose headers   'cache-control': 'max-age=60',
+67 verbose headers   etag: '"7ZXJTUNEJDK1Q0X93IPX8CXYG"',
+67 verbose headers   age: '0',
+67 verbose headers   connection: 'keep-alive',
+67 verbose headers   'x-served-by': 'cache-sjc3120-SJC',
+67 verbose headers   'x-cache': 'HIT',
+67 verbose headers   'x-cache-hits': '1',
+67 verbose headers   'x-timer': 'S1447882530.454662,VS0,VE90',
+67 verbose headers   vary: 'Accept' }
+68 silly get cb [ 304,
+68 silly get   { date: 'Wed, 18 Nov 2015 21:35:30 GMT',
+68 silly get     via: '1.1 varnish',
+68 silly get     'cache-control': 'max-age=60',
+68 silly get     etag: '"7ZXJTUNEJDK1Q0X93IPX8CXYG"',
+68 silly get     age: '0',
+68 silly get     connection: 'keep-alive',
+68 silly get     'x-served-by': 'cache-sjc3120-SJC',
+68 silly get     'x-cache': 'HIT',
+68 silly get     'x-cache-hits': '1',
+68 silly get     'x-timer': 'S1447882530.454662,VS0,VE90',
+68 silly get     vary: 'Accept' } ]
+69 verbose etag https://registry.npmjs.org/axios from cache
+70 verbose get saving axios to /Users/fresh/.npm/registry.npmjs.org/axios/.cache.json
+71 silly addNameRange number 2 { name: 'axios', range: '*', hasData: true }
+72 silly addNameRange versions [ 'axios',
+72 silly addNameRange   [ '0.1.0',
+72 silly addNameRange     '0.2.0',
+72 silly addNameRange     '0.2.1',
+72 silly addNameRange     '0.2.2',
+72 silly addNameRange     '0.3.0',
+72 silly addNameRange     '0.3.1',
+72 silly addNameRange     '0.4.0',
+72 silly addNameRange     '0.4.1',
+72 silly addNameRange     '0.4.2',
+72 silly addNameRange     '0.5.0',
+72 silly addNameRange     '0.5.1',
+72 silly addNameRange     '0.5.2',
+72 silly addNameRange     '0.5.3',
+72 silly addNameRange     '0.5.4',
+72 silly addNameRange     '0.6.0',
+72 silly addNameRange     '0.7.0' ] ]
+73 silly addNamed axios@0.7.0
+74 verbose addNamed "0.7.0" is a plain semver version for axios
+75 silly cache afterAdd axios@0.7.0
+76 verbose afterAdd /Users/fresh/.npm/axios/0.7.0/package/package.json not in flight; writing
+77 verbose afterAdd /Users/fresh/.npm/axios/0.7.0/package/package.json written
+78 silly install resolved [ { name: 'axios',
+78 silly install resolved     version: '0.7.0',
+78 silly install resolved     description: 'Promise based HTTP client for the browser and node.js',
+78 silly install resolved     main: 'index.js',
+78 silly install resolved     scripts:
+78 silly install resolved      { test: 'grunt test',
+78 silly install resolved        start: 'node ./sandbox/server.js',
+78 silly install resolved        examples: 'node ./examples/server.js',
+78 silly install resolved        coveralls: 'cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js' },
+78 silly install resolved     repository:
+78 silly install resolved      { type: 'git',
+78 silly install resolved        url: 'git+https://github.com/mzabriskie/axios.git' },
+78 silly install resolved     keywords: [ 'xhr', 'http', 'ajax', 'promise', 'node' ],
+78 silly install resolved     author: { name: 'Matt Zabriskie' },
+78 silly install resolved     license: 'MIT',
+78 silly install resolved     bugs: { url: 'https://github.com/mzabriskie/axios/issues' },
+78 silly install resolved     homepage: 'https://github.com/mzabriskie/axios',
+78 silly install resolved     devDependencies:
+78 silly install resolved      { coveralls: '2.11.4',
+78 silly install resolved        'es6-promise': '3.0.2',
+78 silly install resolved        grunt: '0.4.5',
+78 silly install resolved        'grunt-banner': '0.5.0',
+78 silly install resolved        'grunt-cli': '0.1.13',
+78 silly install resolved        'grunt-contrib-clean': '0.6.0',
+78 silly install resolved        'grunt-contrib-nodeunit': '0.4.1',
+78 silly install resolved        'grunt-contrib-watch': '0.6.1',
+78 silly install resolved        'grunt-eslint': '17.2.0',
+78 silly install resolved        'grunt-karma': '0.12.1',
+78 silly install resolved        'grunt-ts': '5.0.0-beta.5',
+78 silly install resolved        'grunt-update-json': '0.2.1',
+78 silly install resolved        'grunt-webpack': '1.0.11',
+78 silly install resolved        'jasmine-core': '2.3.4',
+78 silly install resolved        karma: '0.13.10',
+78 silly install resolved        'karma-coverage': '0.5.2',
+78 silly install resolved        'karma-jasmine': '0.3.6',
+78 silly install resolved        'karma-jasmine-ajax': '0.1.13',
+78 silly install resolved        'karma-phantomjs-launcher': '0.2.1',
+78 silly install resolved        'karma-sourcemap-loader': '0.3.5',
+78 silly install resolved        'karma-webpack': '1.7.0',
+78 silly install resolved        'load-grunt-tasks': '3.3.0',
+78 silly install resolved        minimist: '1.2.0',
+78 silly install resolved        phantomjs: '1.9.18',
+78 silly install resolved        webpack: '1.12.2',
+78 silly install resolved        'webpack-dev-server': '1.12.0' },
+78 silly install resolved     browser: { './lib/adapters/http.js': './lib/adapters/xhr.js' },
+78 silly install resolved     typescript: { definition: './axios.d.ts' },
+78 silly install resolved     gitHead: 'e8136b1f746d87d9ac620cb50c26722db555169a',
+78 silly install resolved     _id: 'axios@0.7.0',
+78 silly install resolved     _shasum: '489c269044d5066dfa2c64c749cb131b176f4a7a',
+78 silly install resolved     _from: 'axios@*',
+78 silly install resolved     _npmVersion: '2.13.4',
+78 silly install resolved     _nodeVersion: '0.10.33',
+78 silly install resolved     _npmUser: { name: 'mzabriskie', email: 'mzabriskie@gmail.com' },
+78 silly install resolved     maintainers: [ [Object] ],
+78 silly install resolved     dist:
+78 silly install resolved      { shasum: '489c269044d5066dfa2c64c749cb131b176f4a7a',
+78 silly install resolved        tarball: 'http://registry.npmjs.org/axios/-/axios-0.7.0.tgz' },
+78 silly install resolved     directories: {},
+78 silly install resolved     _resolved: 'https://registry.npmjs.org/axios/-/axios-0.7.0.tgz',
+78 silly install resolved     readme: 'ERROR: No README data found!' } ]
+79 info install axios@0.7.0 into /Users/fresh/code/mtcs/personal_projects/photo-style-blog
+80 info installOne axios@0.7.0
+81 verbose installOne of axios to /Users/fresh/code/mtcs/personal_projects/photo-style-blog not in flight; installing
+82 verbose lock using /Users/fresh/.npm/_locks/axios-0252751afd53bd36.lock for /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/axios
+83 silly install write writing axios 0.7.0 to /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/axios
+84 verbose unbuild node_modules/axios
+85 silly gentlyRm /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/axios is being purged from base /Users/fresh/code/mtcs/personal_projects/photo-style-blog
+86 verbose gentlyRm don't care about contents; nuking /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/axios
+87 verbose tar unpack /Users/fresh/.npm/axios/0.7.0/package.tgz
+88 verbose tar unpacking to /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/axios
+89 silly gentlyRm /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/axios is being purged
+90 verbose gentlyRm don't care about contents; nuking /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/axios
+91 silly gunzTarPerm modes [ '755', '644' ]
+92 silly gunzTarPerm extractEntry package.json
+93 silly gunzTarPerm extractEntry README.md
+94 silly gunzTarPerm extractEntry LICENSE
+95 silly gunzTarPerm extractEntry index.js
+96 silly gunzTarPerm extractEntry UPGRADE_GUIDE.md
+97 silly gunzTarPerm extractEntry axios.d.ts
+98 silly gunzTarPerm extractEntry dist/axios.js
+99 silly gunzTarPerm extractEntry dist/axios.min.js
+100 silly gunzTarPerm extractEntry dist/axios.map
+101 silly gunzTarPerm extractEntry dist/axios.min.map
+102 silly gunzTarPerm extractEntry CHANGELOG.md
+103 silly gunzTarPerm extractEntry lib/axios.js
+104 silly gunzTarPerm extractEntry lib/defaults.js
+105 silly gunzTarPerm extractEntry lib/utils.js
+106 silly gunzTarPerm extractEntry lib/adapters/http.js
+107 silly gunzTarPerm extractEntry lib/adapters/xhr.js
+108 silly gunzTarPerm extractEntry lib/core/InterceptorManager.js
+109 silly gunzTarPerm extractEntry lib/core/dispatchRequest.js
+110 silly gunzTarPerm extractEntry lib/helpers/buildUrl.js
+111 silly gunzTarPerm extractEntry lib/helpers/cookies.js
+112 silly gunzTarPerm extractEntry lib/helpers/deprecatedMethod.js
+113 silly gunzTarPerm extractEntry lib/helpers/parseHeaders.js
+114 silly gunzTarPerm extractEntry lib/helpers/spread.js
+115 silly gunzTarPerm extractEntry lib/helpers/transformData.js
+116 silly gunzTarPerm extractEntry lib/helpers/urlIsSameOrigin.js
+117 verbose write writing to /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/axios/package.json
+118 info preinstall axios@0.7.0
+119 verbose readDependencies loading dependencies from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/axios/package.json
+120 verbose readDependencies loading dependencies from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/axios/package.json
+121 silly install resolved []
+122 verbose about to build /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/axios
+123 info build /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/axios
+124 info linkStuff axios@0.7.0
+125 silly linkStuff axios@0.7.0 has /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules as its parent node_modules
+126 verbose linkBins axios@0.7.0
+127 verbose linkMans axios@0.7.0
+128 verbose rebuildBundles axios@0.7.0
+129 info install axios@0.7.0
+130 info postinstall axios@0.7.0
+131 verbose unlock done using /Users/fresh/.npm/_locks/axios-0252751afd53bd36.lock for /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/axios
+132 verbose validateInstall loading /Users/fresh/code/mtcs/personal_projects/photo-style-blog/package.json for validation
+133 verbose stack Error: The package react@0.13.3 does not satisfy its siblings' peerDependencies requirements!
+133 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+133 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+133 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+133 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+133 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+133 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+133 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+133 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+133 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+133 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+134 verbose cwd /Users/fresh/code/mtcs/personal_projects/photo-style-blog
+135 error Darwin 14.5.0
+136 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "axios" "--save"
+137 error node v4.2.2
+138 error npm  v2.14.7
+139 error code EPEERINVALID
+140 error peerinvalid The package react@0.13.3 does not satisfy its siblings' peerDependencies requirements!
+140 error peerinvalid Peer react-redux@4.0.0 wants react@^0.14.0
+140 error peerinvalid Peer react-dom@0.14.2 wants react@^0.14.2
+140 error peerinvalid Peer redbox-react@1.2.0 wants react@>=0.13.2 || ^0.14.0-rc1
+141 verbose exit [ 1, true ]

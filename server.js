@@ -11,7 +11,7 @@ var morgan = require('morgan');
 var passport = require('passport');
 var flash = require('connect-flash');
 // var twitterRoutes = require('./routes/tweets');
-// var githubRoutes = require('./routes/github');
+var githubRoutes = require('./routes/github');
 
 var cookieParser = require('cookie-parser');
 var bodyParser   = require('body-parser');
@@ -79,6 +79,7 @@ require('./config/passport')(passport);
 require('./routes/user.js')(app, passport);
 
 app.use('/api/blogs', blogRoutes);
+app.use('/api/github', githubRoutes);
 // app.use('/api/tweets', twitterRoutes);
 // app.use('/api/github', githubRoutes);
 
