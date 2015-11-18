@@ -34,6 +34,23 @@
 
             </div>
         </div>
+        <div class="col-sm-6">
+            <div class="well">
+                <h3><span class="fa fa-user"></span> My Comments</h3>
+
+                    <p>
+                    <% for(var i=0; i<comments.length; i++) {%>
+                        <p>
+                           <%= comments[i].body%>
+                            <% if(comments[i].blog) {%>
+                                - <%= comments[i].blog.title%>
+                            <% } %>
+                        </p>
+                    <% } %>
+                    </p>
+
+            </div>
+        </div>
 
     </div>
 

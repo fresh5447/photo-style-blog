@@ -6,6 +6,7 @@ var bodyParser = require('body-parser');
 var db = require('./models/db');
 var blogModel = require('./models/blog');
 var blogRoutes = require('./routes/blog');
+var commentModel = require('./models/comment')
 var morgan = require('morgan');
 var passport = require('passport');
 var flash = require('connect-flash');

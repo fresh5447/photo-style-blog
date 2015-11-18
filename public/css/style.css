@@ -7,10 +7,40 @@ section{
 	padding: 30px 0 30px 0;
 }
 
-.title{
+.title {
 	text-align: center;
 	font-size: 16px;
 	margin-top: 15px;
 	margin-bottom: 20px;
 	font-weight: bold;
+}
+
+.box-icon span {
+	color: black;
+    display: table-cell;
+    text-align: center;
+}
+
+.box {
+	border-radius: 3px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    padding: 10px 25px;
+    text-align: right;
+    display: block;
+    margin-top: 60px;
+    margin-right: 15px;
+    color: rgb(255, 128, 0);
+    background-color: #fff;
+}
+
+.section-header{
+	background: #222;
+	border-color: #080808;
+}
+
+.section-header h3 {
+	color: white;
+	font-size: 36px;
+	margin: 20px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
