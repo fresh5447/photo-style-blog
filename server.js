@@ -66,6 +66,14 @@ app.use(session({ secret: 'ilovescotchscotchyscotchscotch' })); // session secre
 app.use(passport.initialize());
 app.use(passport.session()); // persistent login sessions
 app.use(flash()); // use connect-flash for flash messages stored in session
+
+app.get('/flash', function(req, res){
+  // Set a flash message by passing the key, followed by the value, to req.flash().
+  req.flash('info', 'Flash is back!')
+  req.flash('test', 'Flash is back!')
+  res.redirect('/');
+});
+
 require('./config/passport')(passport);
 // routes ======================================================================
 require('./routes/user.js')(app, passport);

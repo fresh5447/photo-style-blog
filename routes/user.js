@@ -10,8 +10,12 @@ module.exports = function(app, passport) {
     });
 
     app.get('/blog', function(req, res){
-        res.render('blog.ejs',
-            { user : req.user})
+        res.render('blog.ejs', 
+        { message: req.flash('test'),
+          user: req.user
+        }
+
+        );
     });
 
     app.post('/signup', passport.authenticate('local-signup', {
@@ -33,7 +37,6 @@ module.exports = function(app, passport) {
 
 
     app.get('/signup', function(req, res) {
-
         // render the page and pass in any flash data if it exists
         res.render('signup.ejs', { message: req.flash('signupMessage') });
     });
