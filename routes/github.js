@@ -8,12 +8,14 @@ fetchGithubEvents = function(req,res){
 	axios.get(url)
 	  .then(function (response) {
 		var myEvents = response.data.map(function(g){
-      		return {
-        		"id": g.id,"repo": g.repo.name, "payload": g.payload.commits}
-      		}
-    	);
+  			if(g.payload.commits){
+    			var coms = g.payload.commits.map(function(c){
+      				return {"message": c.message, "url": c.url}
+      			})
+  			}
+      		return { "id": g.id, "timeStamp": g.created_at, "repo": g.repo.name, "coms": coms }
+      		});
 	    res.json(myEvents);
-	    console.log("hello");
 	  })
 	  .catch(function (response) { 
 	    console.log(response);

@@ -1,5 +1,6 @@
 var data = [ 
-    { id: '3356654846',
+  { 
+    id: '3356654846',
     type: 'PushEvent',
     actor:
      { id: 5817201,
@@ -11,14 +12,36 @@ var data = [
      { id: 46365678,
        name: 'fresh5447/photo-style-blog',
        url: 'https://api.github.com/repos/fresh5447/photo-style-blog' },
-    payload:
-     { push_id: 870954782,
-       size: 1,
-       distinct_size: 1,
-       ref: 'refs/heads/master',
-       head: 'eb43c00641492f6e07c85f6dc1f59f38c06b4a35',
-       before: '1c7e7bc46d0bb49f353a0d97f8008de3bdf075f5',
-       commits: [Object] },
+    payload: {
+      "push_id": 871112166,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/master",
+      "head": "13bb1d4ba95a39154468e2e8d8ea26f8a6244a32",
+      "before": "1c98a40185b535b9bd5ba1157140d23c4852e371",
+      "commits": [
+        {
+          "sha": "188b76591709d8664e308639c92f288e58d9038c",
+          "author": {
+            "email": "doug@kosmojo.com",
+            "name": "fresh5447"
+          },
+          "message": "commiting for example",
+          "distinct": true,
+          "url": "https://api.github.com/repos/fresh5447/photo-style-blog/commits/188b76591709d8664e308639c92f288e58d9038c"
+        },
+        {
+          "sha": "13bb1d4ba95a39154468e2e8d8ea26f8a6244a32",
+          "author": {
+            "email": "doug@kosmojo.com",
+            "name": "fresh5447"
+          },
+          "message": "github component is rendering with static data, next step is to plug in dynamic data",
+          "distinct": true,
+          "url": "https://api.github.com/repos/fresh5447/photo-style-blog/commits/13bb1d4ba95a39154468e2e8d8ea26f8a6244a32"
+        }
+      ]
+    },
     public: true,
     created_at: '2015-11-18T21:26:08Z' },
   { id: '3355518571',
@@ -33,558 +56,39 @@ var data = [
      { id: 45963401,
        name: 'fresh5447/my-paranoia',
        url: 'https://api.github.com/repos/fresh5447/my-paranoia' },
-    payload:
-     { push_id: 870557199,
-       size: 1,
-       distinct_size: 1,
-       ref: 'refs/heads/master',
-       head: 'f38e1a662bcc588fd6df8556c7a8fe741713e18a',
-       before: '211f14601982aaeb8b6cfdbb987619adb02218ca',
-       commits: [Object] },
+    payload: {
+      "push_id": 871112166,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/master",
+      "head": "13bb1d4ba95a39154468e2e8d8ea26f8a6244a32",
+      "before": "1c98a40185b535b9bd5ba1157140d23c4852e371",
+      "commits": [
+        {
+          "sha": "188b76591709d8664e308639c92f288e58d9038c",
+          "author": {
+            "email": "doug@kosmojo.com",
+            "name": "fresh5447"
+          },
+          "message": "commiting for example",
+          "distinct": true,
+          "url": "https://api.github.com/repos/fresh5447/photo-style-blog/commits/188b76591709d8664e308639c92f288e58d9038c"
+        },
+        {
+          "sha": "13bb1d4ba95a39154468e2e8d8ea26f8a6244a32",
+          "author": {
+            "email": "doug@kosmojo.com",
+            "name": "fresh5447"
+          },
+          "message": "github component is rendering with static data, next step is to plug in dynamic data",
+          "distinct": true,
+          "url": "https://api.github.com/repos/fresh5447/photo-style-blog/commits/13bb1d4ba95a39154468e2e8d8ea26f8a6244a32"
+        }
+      ]
+    },
     public: true,
     created_at: '2015-11-18T16:43:33Z' },
-  { id: '3353647644',
-    type: 'PushEvent',
-    actor:
-     { id: 5817201,
-       login: 'fresh5447',
-       gravatar_id: '',
-       url: 'https://api.github.com/users/fresh5447',
-       avatar_url: 'https://avatars.githubusercontent.com/u/5817201?' },
-    repo:
-     { id: 46365678,
-       name: 'fresh5447/photo-style-blog',
-       url: 'https://api.github.com/repos/fresh5447/photo-style-blog' },
-    payload:
-     { push_id: 869859775,
-       size: 1,
-       distinct_size: 1,
-       ref: 'refs/heads/master',
-       head: '1c7e7bc46d0bb49f353a0d97f8008de3bdf075f5',
-       before: '6b93ba5e49398d3eee651b8abfca97ef3dec14d1',
-       commits: [Object] },
-    public: true,
-    created_at: '2015-11-18T07:44:50Z' },
-  { id: '3352760806',
-    type: 'PushEvent',
-    actor:
-     { id: 5817201,
-       login: 'fresh5447',
-       gravatar_id: '',
-       url: 'https://api.github.com/users/fresh5447',
-       avatar_url: 'https://avatars.githubusercontent.com/u/5817201?' },
-    repo:
-     { id: 46365678,
-       name: 'fresh5447/photo-style-blog',
-       url: 'https://api.github.com/repos/fresh5447/photo-style-blog' },
-    payload:
-     { push_id: 869539261,
-       size: 1,
-       distinct_size: 1,
-       ref: 'refs/heads/master',
-       head: '6b93ba5e49398d3eee651b8abfca97ef3dec14d1',
-       before: '27b2ec89e3278ce4ac9dcb17c882ba4d6590ca5f',
-       commits: [Object] },
-    public: true,
-    created_at: '2015-11-18T00:25:24Z' },
-  { id: '3352646074',
-    type: 'PushEvent',
-    actor:
-     { id: 5817201,
-       login: 'fresh5447',
-       gravatar_id: '',
-       url: 'https://api.github.com/users/fresh5447',
-       avatar_url: 'https://avatars.githubusercontent.com/u/5817201?' },
-    repo:
-     { id: 46365678,
-       name: 'fresh5447/photo-style-blog',
-       url: 'https://api.github.com/repos/fresh5447/photo-style-blog' },
-    payload:
-     { push_id: 869501728,
-       size: 1,
-       distinct_size: 1,
-       ref: 'refs/heads/master',
-       head: '27b2ec89e3278ce4ac9dcb17c882ba4d6590ca5f',
-       before: '3d4a44a5bd9c1add6974e32b2e66f17486d9152b',
-       commits: [Object] },
-    public: true,
-    created_at: '2015-11-17T23:46:37Z' },
-  { id: '3352616193',
-    type: 'PushEvent',
-    actor:
-     { id: 5817201,
-       login: 'fresh5447',
-       gravatar_id: '',
-       url: 'https://api.github.com/users/fresh5447',
-       avatar_url: 'https://avatars.githubusercontent.com/u/5817201?' },
-    repo:
-     { id: 46365678,
-       name: 'fresh5447/photo-style-blog',
-       url: 'https://api.github.com/repos/fresh5447/photo-style-blog' },
-    payload:
-     { push_id: 869492076,
-       size: 1,
-       distinct_size: 1,
-       ref: 'refs/heads/master',
-       head: '3d4a44a5bd9c1add6974e32b2e66f17486d9152b',
-       before: '1236bbae8cc11915360f8265b568b2aa7c77d8c0',
-       commits: [Object] },
-    public: true,
-    created_at: '2015-11-17T23:37:25Z' },
-  { id: '3351468272',
-    type: 'PushEvent',
-    actor:
-     { id: 5817201,
-       login: 'fresh5447',
-       gravatar_id: '',
-       url: 'https://api.github.com/users/fresh5447',
-       avatar_url: 'https://avatars.githubusercontent.com/u/5817201?' },
-    repo:
-     { id: 46365678,
-       name: 'fresh5447/photo-style-blog',
-       url: 'https://api.github.com/repos/fresh5447/photo-style-blog' },
-    payload:
-     { push_id: 869094834,
-       size: 1,
-       distinct_size: 1,
-       ref: 'refs/heads/master',
-       head: '1236bbae8cc11915360f8265b568b2aa7c77d8c0',
-       before: 'f8ab17c1f9b29190d3947c8dfb16e9fa5fb6630e',
-       commits: [Object] },
-    public: true,
-    created_at: '2015-11-17T18:41:26Z' },
-  { id: '3351345043',
-    type: 'CreateEvent',
-    actor:
-     { id: 5817201,
-       login: 'fresh5447',
-       gravatar_id: '',
-       url: 'https://api.github.com/users/fresh5447',
-       avatar_url: 'https://avatars.githubusercontent.com/u/5817201?' },
-    repo:
-     { id: 46365678,
-       name: 'fresh5447/photo-style-blog',
-       url: 'https://api.github.com/repos/fresh5447/photo-style-blog' },
-    payload:
-     { ref: 'master',
-       ref_type: 'branch',
-       master_branch: 'master',
-       description: '',
-       pusher_type: 'user' },
-    public: true,
-    created_at: '2015-11-17T18:10:01Z' },
-  { id: '3351339137',
-    type: 'CreateEvent',
-    actor:
-     { id: 5817201,
-       login: 'fresh5447',
-       gravatar_id: '',
-       url: 'https://api.github.com/users/fresh5447',
-       avatar_url: 'https://avatars.githubusercontent.com/u/5817201?' },
-    repo:
-     { id: 46365678,
-       name: 'fresh5447/photo-style-blog',
-       url: 'https://api.github.com/repos/fresh5447/photo-style-blog' },
-    payload:
-     { ref: null,
-       ref_type: 'repository',
-       master_branch: 'master',
-       description: '',
-       pusher_type: 'user' },
-    public: true,
-    created_at: '2015-11-17T18:08:28Z' },
-  { id: '3341021430',
-    type: 'ForkEvent',
-    actor:
-     { id: 5817201,
-       login: 'fresh5447',
-       gravatar_id: '',
-       url: 'https://api.github.com/users/fresh5447',
-       avatar_url: 'https://avatars.githubusercontent.com/u/5817201?' },
-    repo:
-     { id: 45655949,
-       name: 'jaredreich/notie.js',
-       url: 'https://api.github.com/repos/jaredreich/notie.js' },
-    payload: { forkee: [Object] },
-    public: true,
-    created_at: '2015-11-13T20:59:13Z' },
-  { id: '3340877034',
-    type: 'WatchEvent',
-    actor:
-     { id: 5817201,
-       login: 'fresh5447',
-       gravatar_id: '',
-       url: 'https://api.github.com/users/fresh5447',
-       avatar_url: 'https://avatars.githubusercontent.com/u/5817201?' },
-    repo:
-     { id: 35824245,
-       name: 'AllThingsSmitty/jquery-tips-everyone-should-know',
-       url: 'https://api.github.com/repos/AllThingsSmitty/jquery-tips-everyone-should-know' },
-    payload: { action: 'started' },
-    public: true,
-    created_at: '2015-11-13T20:15:44Z' },
-  { id: '3332669750',
-    type: 'PushEvent',
-    actor:
-     { id: 5817201,
-       login: 'fresh5447',
-       gravatar_id: '',
-       url: 'https://api.github.com/users/fresh5447',
-       avatar_url: 'https://avatars.githubusercontent.com/u/5817201?' },
-    repo:
-     { id: 45991024,
-       name: 'fresh5447/beer-app',
-       url: 'https://api.github.com/repos/fresh5447/beer-app' },
-    payload:
-     { push_id: 862049860,
-       size: 1,
-       distinct_size: 1,
-       ref: 'refs/heads/master',
-       head: '84d5bff1d8cb55cbd5bfd24bfd07056d6ffc5dcd',
-       before: '541077c157abf9b5cc436d9707d7854c6556c602',
-       commits: [Object] },
-    public: true,
-    created_at: '2015-11-11T21:12:38Z' },
-  { id: '3331954825',
-    type: 'PushEvent',
-    actor:
-     { id: 5817201,
-       login: 'fresh5447',
-       gravatar_id: '',
-       url: 'https://api.github.com/users/fresh5447',
-       avatar_url: 'https://avatars.githubusercontent.com/u/5817201?' },
-    repo:
-     { id: 45991024,
-       name: 'fresh5447/beer-app',
-       url: 'https://api.github.com/repos/fresh5447/beer-app' },
-    payload:
-     { push_id: 861792622,
-       size: 1,
-       distinct_size: 1,
-       ref: 'refs/heads/master',
-       head: '541077c157abf9b5cc436d9707d7854c6556c602',
-       before: 'ae97b4eb1389054f4d499f0392435b5d9845fedf',
-       commits: [Object] },
-    public: true,
-    created_at: '2015-11-11T17:58:17Z' },
-  { id: '3331435143',
-    type: 'PushEvent',
-    actor:
-     { id: 5817201,
-       login: 'fresh5447',
-       gravatar_id: '',
-       url: 'https://api.github.com/users/fresh5447',
-       avatar_url: 'https://avatars.githubusercontent.com/u/5817201?' },
-    repo:
-     { id: 45991024,
-       name: 'fresh5447/beer-app',
-       url: 'https://api.github.com/repos/fresh5447/beer-app' },
-    payload:
-     { push_id: 861605201,
-       size: 1,
-       distinct_size: 1,
-       ref: 'refs/heads/master',
-       head: 'ae97b4eb1389054f4d499f0392435b5d9845fedf',
-       before: 'cf86be925f3b1f89103cf9467312a18775d30ec0',
-       commits: [Object] },
-    public: true,
-    created_at: '2015-11-11T15:51:19Z' },
-  { id: '3331410385',
-    type: 'ForkEvent',
-    actor:
-     { id: 5817201,
-       login: 'fresh5447',
-       gravatar_id: '',
-       url: 'https://api.github.com/users/fresh5447',
-       avatar_url: 'https://avatars.githubusercontent.com/u/5817201?' },
-    repo:
-     { id: 45000122,
-       name: 'sreahard/beer-app',
-       url: 'https://api.github.com/repos/sreahard/beer-app' },
-    payload: { forkee: [Object] },
-    public: true,
-    created_at: '2015-11-11T15:45:47Z' },
-  { id: '3329874515',
-    type: 'PushEvent',
-    actor:
-     { id: 5817201,
-       login: 'fresh5447',
-       gravatar_id: '',
-       url: 'https://api.github.com/users/fresh5447',
-       avatar_url: 'https://avatars.githubusercontent.com/u/5817201?' },
-    repo:
-     { id: 45963401,
-       name: 'fresh5447/my-paranoia',
-       url: 'https://api.github.com/repos/fresh5447/my-paranoia' },
-    payload:
-     { push_id: 861011616,
-       size: 1,
-       distinct_size: 1,
-       ref: 'refs/heads/master',
-       head: '211f14601982aaeb8b6cfdbb987619adb02218ca',
-       before: '6cc9c0c567b4f47000c99bffb0835e88d8a6efe0',
-       commits: [Object] },
-    public: true,
-    created_at: '2015-11-11T06:15:30Z' },
-  { id: '3329872213',
-    type: 'CreateEvent',
-    actor:
-     { id: 5817201,
-       login: 'fresh5447',
-       gravatar_id: '',
-       url: 'https://api.github.com/users/fresh5447',
-       avatar_url: 'https://avatars.githubusercontent.com/u/5817201?' },
-    repo:
-     { id: 45963401,
-       name: 'fresh5447/my-paranoia',
-       url: 'https://api.github.com/repos/fresh5447/my-paranoia' },
-    payload:
-     { ref: 'master',
-       ref_type: 'branch',
-       master_branch: 'master',
-       description: '',
-       pusher_type: 'user' },
-    public: true,
-    created_at: '2015-11-11T06:14:07Z' },
-  { id: '3329871048',
-    type: 'CreateEvent',
-    actor:
-     { id: 5817201,
-       login: 'fresh5447',
-       gravatar_id: '',
-       url: 'https://api.github.com/users/fresh5447',
-       avatar_url: 'https://avatars.githubusercontent.com/u/5817201?' },
-    repo:
-     { id: 45963401,
-       name: 'fresh5447/my-paranoia',
-       url: 'https://api.github.com/repos/fresh5447/my-paranoia' },
-    payload:
-     { ref: null,
-       ref_type: 'repository',
-       master_branch: 'master',
-       description: '',
-       pusher_type: 'user' },
-    public: true,
-    created_at: '2015-11-11T06:13:25Z' },
-  { id: '3328815782',
-    type: 'WatchEvent',
-    actor:
-     { id: 5817201,
-       login: 'fresh5447',
-       gravatar_id: '',
-       url: 'https://api.github.com/users/fresh5447',
-       avatar_url: 'https://avatars.githubusercontent.com/u/5817201?' },
-    repo:
-     { id: 12900361,
-       name: 'slate/slate',
-       url: 'https://api.github.com/repos/slate/slate' },
-    payload: { action: 'started' },
-    public: true,
-    created_at: '2015-11-10T22:24:50Z',
-    org:
-     { id: 5479637,
-       login: 'slate',
-       gravatar_id: '',
-       url: 'https://api.github.com/orgs/slate',
-       avatar_url: 'https://avatars.githubusercontent.com/u/5479637?' } },
-  { id: '3328804197',
-    type: 'WatchEvent',
-    actor:
-     { id: 5817201,
-       login: 'fresh5447',
-       gravatar_id: '',
-       url: 'https://api.github.com/users/fresh5447',
-       avatar_url: 'https://avatars.githubusercontent.com/u/5817201?' },
-    repo:
-     { id: 7796523,
-       name: 'jansmolders86/mediacenterjs',
-       url: 'https://api.github.com/repos/jansmolders86/mediacenterjs' },
-    payload: { action: 'started' },
-    public: true,
-    created_at: '2015-11-10T22:21:44Z' },
-  { id: '3325408644',
-    type: 'WatchEvent',
-    actor:
-     { id: 5817201,
-       login: 'fresh5447',
-       gravatar_id: '',
-       url: 'https://api.github.com/users/fresh5447',
-       avatar_url: 'https://avatars.githubusercontent.com/u/5817201?' },
-    repo:
-     { id: 44380999,
-       name: 'tiberiuc/react-redux-minimal-starter',
-       url: 'https://api.github.com/repos/tiberiuc/react-redux-minimal-starter' },
-    payload: { action: 'started' },
-    public: true,
-    created_at: '2015-11-10T05:48:30Z' },
-  { id: '3319256335',
-    type: 'PushEvent',
-    actor:
-     { id: 5817201,
-       login: 'fresh5447',
-       gravatar_id: '',
-       url: 'https://api.github.com/users/fresh5447',
-       avatar_url: 'https://avatars.githubusercontent.com/u/5817201?' },
-    repo:
-     { id: 44194361,
-       name: 'fresh5447/dougs-blog',
-       url: 'https://api.github.com/repos/fresh5447/dougs-blog' },
-    payload:
-     { push_id: 857075591,
-       size: 1,
-       distinct_size: 1,
-       ref: 'refs/heads/saturday_cleanup',
-       head: '9b77da7e43c7c6a05c6cf3f0f770f7ef253bc64b',
-       before: '020af70b5f4624033e593e6d377e8c75b649b36d',
-       commits: [Object] },
-    public: true,
-    created_at: '2015-11-08T01:08:26Z' },
-  { id: '3319213289',
-    type: 'PushEvent',
-    actor:
-     { id: 5817201,
-       login: 'fresh5447',
-       gravatar_id: '',
-       url: 'https://api.github.com/users/fresh5447',
-       avatar_url: 'https://avatars.githubusercontent.com/u/5817201?' },
-    repo:
-     { id: 44194361,
-       name: 'fresh5447/dougs-blog',
-       url: 'https://api.github.com/repos/fresh5447/dougs-blog' },
-    payload:
-     { push_id: 857058566,
-       size: 1,
-       distinct_size: 1,
-       ref: 'refs/heads/saturday_cleanup',
-       head: '020af70b5f4624033e593e6d377e8c75b649b36d',
-       before: '039c5f8939a2852f49e1b356105f1776b3cb8010',
-       commits: [Object] },
-    public: true,
-    created_at: '2015-11-08T00:19:07Z' },
-  { id: '3319165128',
-    type: 'PushEvent',
-    actor:
-     { id: 5817201,
-       login: 'fresh5447',
-       gravatar_id: '',
-       url: 'https://api.github.com/users/fresh5447',
-       avatar_url: 'https://avatars.githubusercontent.com/u/5817201?' },
-    repo:
-     { id: 44194361,
-       name: 'fresh5447/dougs-blog',
-       url: 'https://api.github.com/repos/fresh5447/dougs-blog' },
-    payload:
-     { push_id: 857036671,
-       size: 1,
-       distinct_size: 1,
-       ref: 'refs/heads/saturday_cleanup',
-       head: '039c5f8939a2852f49e1b356105f1776b3cb8010',
-       before: '843721ed111a2742505e2f60f8b679cd2c1d6752',
-       commits: [Object] },
-    public: true,
-    created_at: '2015-11-07T23:24:05Z' },
-  { id: '3319142673',
-    type: 'CreateEvent',
-    actor:
-     { id: 5817201,
-       login: 'fresh5447',
-       gravatar_id: '',
-       url: 'https://api.github.com/users/fresh5447',
-       avatar_url: 'https://avatars.githubusercontent.com/u/5817201?' },
-    repo:
-     { id: 44194361,
-       name: 'fresh5447/dougs-blog',
-       url: 'https://api.github.com/repos/fresh5447/dougs-blog' },
-    payload:
-     { ref: 'saturday_cleanup',
-       ref_type: 'branch',
-       master_branch: 'master',
-       description: '',
-       pusher_type: 'user' },
-    public: true,
-    created_at: '2015-11-07T22:59:30Z' },
-  { id: '3318961314',
-    type: 'WatchEvent',
-    actor:
-     { id: 5817201,
-       login: 'fresh5447',
-       gravatar_id: '',
-       url: 'https://api.github.com/users/fresh5447',
-       avatar_url: 'https://avatars.githubusercontent.com/u/5817201?' },
-    repo:
-     { id: 45095920,
-       name: 'lancefisher/stripe-demo',
-       url: 'https://api.github.com/repos/lancefisher/stripe-demo' },
-    payload: { action: 'started' },
-    public: true,
-    created_at: '2015-11-07T20:04:01Z' },
-  { id: '3318944744',
-    type: 'PullRequestEvent',
-    actor:
-     { id: 5817201,
-       login: 'fresh5447',
-       gravatar_id: '',
-       url: 'https://api.github.com/users/fresh5447',
-       avatar_url: 'https://avatars.githubusercontent.com/u/5817201?' },
-    repo:
-     { id: 44194361,
-       name: 'fresh5447/dougs-blog',
-       url: 'https://api.github.com/repos/fresh5447/dougs-blog' },
-    payload: { action: 'opened', number: 2, pull_request: [Object] },
-    public: true,
-    created_at: '2015-11-07T19:47:16Z' },
-  { id: '3318909781',
-    type: 'PushEvent',
-    actor:
-     { id: 5817201,
-       login: 'fresh5447',
-       gravatar_id: '',
-       url: 'https://api.github.com/users/fresh5447',
-       avatar_url: 'https://avatars.githubusercontent.com/u/5817201?' },
-    repo:
-     { id: 44194361,
-       name: 'fresh5447/dougs-blog',
-       url: 'https://api.github.com/repos/fresh5447/dougs-blog' },
-    payload:
-     { push_id: 856926124,
-       size: 1,
-       distinct_size: 1,
-       ref: 'refs/heads/passport-tut',
-       head: '8900c0850ba181175a147fec83a0f0af30c32579',
-       before: '04ea07c0466a31b03930efc4666c7f076a12a6e1',
-       commits: [Object] },
-    public: true,
-    created_at: '2015-11-07T19:16:48Z' },
-  { id: '3318187465',
-    type: 'WatchEvent',
-    actor:
-     { id: 5817201,
-       login: 'fresh5447',
-       gravatar_id: '',
-       url: 'https://api.github.com/users/fresh5447',
-       avatar_url: 'https://avatars.githubusercontent.com/u/5817201?' },
-    repo:
-     { id: 1635672,
-       name: 'uipoet/sublime-jshint',
-       url: 'https://api.github.com/repos/uipoet/sublime-jshint' },
-    payload: { action: 'started' },
-    public: true,
-    created_at: '2015-11-07T05:15:23Z' },
-  { id: '3318186723',
-    type: 'WatchEvent',
-    actor:
-     { id: 5817201,
-       login: 'fresh5447',
-       gravatar_id: '',
-       url: 'https://api.github.com/users/fresh5447',
-       avatar_url: 'https://avatars.githubusercontent.com/u/5817201?' },
-    repo:
-     { id: 2305374,
-       name: 'jdc0589/JsFormat',
-       url: 'https://api.github.com/repos/jdc0589/JsFormat' },
-    payload: { action: 'started' },
-    public: true,
-    created_at: '2015-11-07T05:14:21Z' } ]
+ ]
 
 // var commits = data.map(function(g){
 //   return {
@@ -594,11 +98,15 @@ var data = [
 
 
 var goodie = data.map(function(g){
+  if(g.payload.commits){
+    var coms = g.payload.commits.map(function(c){
+      return {"message": c.message, "url": c.url}
+      })
+  }
+  return {
+    "id": g.id, "type": g.type, 
+    "repo": g.repo.name, "timeStamp": g.created_at, "coms": coms};
+  }
+);
 
-      return {
-        "id": g.id, "type": g.type, 
-        "repo": g.repo.name, "timeStamp": g.created_at, "payloads": g.payload.commits}
-      }
-    );
-
-console.log(goodie);
+console.log(goodie)
