@@ -18,6 +18,17 @@ module.exports = function(app, passport) {
         );
     });
 
+    app.get('/blog/:id', function(req, res) {
+        mongoose.model('Blog').findById({_id: req.params.id}, function(err, blog){
+            console.log(blog);
+           res.render('blogShow.ejs', {
+                user : req.user, // get the user out of session and pass to template
+                blog: blog
+            });
+        })
+ 
+    });
+
     app.post('/signup', passport.authenticate('local-signup', {
         successRedirect : '/blog', // redirect to the secure profile section
         failureRedirect : '/signup', // redirect back to the signup page if there is an error

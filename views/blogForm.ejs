@@ -1,15 +1,20 @@
 <%- include ./partials/header.ejs %>
   <body>
-    <%- include ./partials/navbar.ejs %>
 
+<%- include ./partials/navbar.ejs %>
 
-	<section>
-		<div class="row">
-			<div class="container">
-				<span id="BlogForm"></span>
-			</div>
-		</div>
-	</section>
+    <section>
+      <div class="container">
+          <div class="row"> 
+            <div class="col-md-4">
+              <a href="" data-lightbox="gallery" data-title="Picture 4"><img src=<%= blog.img %> class="img-thumbnail" alt=""/></a>
+              <div class="title"><%= blog.title %></div>
+              <div class="blog-body"><p><%= blog.body %></p></div>
+              <div class="blog-tags"><p><%= blog.author %></p></div>
+            </div>
+          </div>
+      </div>
+    </section>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -17,7 +22,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/lightbox.js"></script>
-    <script src="./static/blogForm.js"></script>
-   <%- include ./partials/footer.ejs %>
+    <script src="./static/home.js"></script>
   </body>
 </html>

@@ -4,12 +4,15 @@ var BlogList = React.createClass({
     render: function() {
       var self = this;
       var blogData = this.props.data.map(function(blog){
+      var link = "/blog/564ba8b7ddbd210f2f728626"
+
       var comments = blog.comments.map(function(comment){
         return (<p>{comment.body}</p>)
       })
         return (
                 <div className="col-md-4">
-                  <a href="" data-lightbox="gallery" data-title="Picture 4"><img src={blog.img} className="img-thumbnail" alt=""/></a>
+                  <a href={link}>
+                  <img src={blog.img} className="img-thumbnail" alt=""/></a>
                   <div className="title">{blog.title}</div>
                   <div className="blog-body"><p>{blog.body}</p></div>
                   <div className="blog-tags"><p>{blog.tags}</p></div>
