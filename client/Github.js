@@ -18,7 +18,7 @@ var Github = React.createClass({
         <div className="col-md-4">
           <div className="panel panel-default gitub-box">
             <h3 className="panel-header"><i className="fa fa-code-fork">
-              </i> {g.name}</h3>
+              </i> {g.repo}</h3>
             <div className="panel-body">
                {commitInfo}
             </div>
