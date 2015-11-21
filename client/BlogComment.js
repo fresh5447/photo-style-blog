@@ -15,11 +15,9 @@ var BlogComment = React.createClass({
             dataType: 'json',
             data: data,
             type:'POST',
-                success: function(response){
                 console.log("posting data!",data, response)
-                //document.location='/blog'
-                if(self.props.onPost){
-                  self.props.onPost()
+                if(self.props.addCommentToList){
+                  self.props.addCommentToList()
                 }
                 }.bind(this),
                 error: function(xhr, status, err){
@@ -38,7 +36,7 @@ var BlogComment = React.createClass({
                   <label>new comment</label>
                   <input type="text" className="form-control" ref="comment" placeholder="comment"/>
               </div>
-              <button onClick={this.handleCommentSubmit.bind(this)} type="submit" className="btn btn-default">Submit</button>
+              <button onClick={this.handleCommentSubmit} type="submit" className="btn btn-default">Submit</button>
           </form>
         </div>
           );

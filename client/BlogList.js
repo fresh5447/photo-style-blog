@@ -10,16 +10,17 @@ var BlogList = React.createClass({
 
       var comments = blog.comments.map(function(comment){
         return (<p className="comment-box">{comment.body}</p>)
-      })
+      });
         return (
                 <div className="col-md-3 box">
                   <a href={link}>
                   <img src={blog.img} className="img-thumbnail" alt=""/></a>
                   <div className="title">{blog.title}</div>
+                  <div className="title">{blog}</div>
                   <div className="blog-body"><p>{bodySummary}</p></div>
                   <div className="blog-tags"><p>{blog.tags}</p></div>
                   <div className="blog-tags">{comments}</div>
-                  <BlogComment blogId={blog._id} onPost={self.props.newData}/>
+                  <BlogComment blogId={blog._id} addCommentToList={self.props.gotNewCommentData}/>
                 </div>
         	)
       });
