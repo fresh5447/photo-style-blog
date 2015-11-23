@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');
 router.use(bodyParser.urlencoded({ extended: true }))
 
 function isLoggedIn(req, res, next) {
-  console.log
+  console.log('is logged in is being called')
     // if user is authenticated in the session, carry on 
     if (req.isAuthenticated())
         return next();
@@ -76,9 +76,8 @@ router.route('/:id')
         });
     })
 
-    // update the bear with this id (accessed at PUT http://localhost:8080/api/bears/:id)
     .put(function(req, res) {
-    console.log(req.params.title + "-----------------------------------------------------------------REQUEST");
+      console.log(req.params.title + "-----------------------------------------------------------------REQUEST");
 
         mongoose.model('Blog').findById({
             _id: req.params.id
@@ -92,7 +91,7 @@ router.route('/:id')
             res.json(blog)
         });
     })
-    // delete the bear with this id (accessed at DELETE http://localhost:8080/api/blogs/:id)
+
     .delete(function(req, res) {
         mongoose.model('Blog').remove({
             _id: req.params.id
@@ -104,19 +103,19 @@ router.route('/:id')
         });
     });
 
-router.route('/search/:query')
- .get(function(req, res) {
-        mongoose.model('Blog')
-        .find({ '$text': { '$search': req.params.query } })
-        .populate('user')
-        .populate({ path:'comments', populate:{path:'user', select:'local.email local.username'}})
-        .exec( function(err, blog) {
-            if (err)
-                res.send(err);
+    router.route('/search/:query')
+     .get(function(req, res) {
+            mongoose.model('Blog')
+            .find({ '$text': { '$search': req.params.query } })
+            .populate('user')
+            .populate({ path:'comments', populate:{path:'user', select:'local.email local.username'}})
+            .exec( function(err, blog) {
+                if (err)
+                    res.send(err);
 
-            res.send(blog);
+                res.send(blog);
+        });
     });
-});
 
 
 router.route('/:id/comments')
@@ -147,7 +146,9 @@ router.route('/:id/comment', isLoggedIn)
                 return res.send(err)
               blog.comments.push(comment._id)
               blog.save();
+
               console.log(comment);
+
               res.json(comment);
             })
         });

@@ -3,7 +3,6 @@ var BlogComment = require('./BlogComment');
 var md5 = require('MD5');
 var GRAVATAR_URL = "http://gravatar.com/avatar";
 
-
 var BlogList = React.createClass({ 
     render: function() {
       var self = this;
@@ -11,11 +10,7 @@ var BlogList = React.createClass({
       var bodySummary = blog.body.substr(0,100) + "....."
       var link = "/blog/564ba8b7ddbd210f2f728626"
       var comments = blog.comments.map(function(comment){
-
-        window.com = comment.body;
         window.user = comment.user;
-
-
         if(comment.user){
           var user = comment.user.local.username;
           var size = 36;
@@ -28,6 +23,7 @@ var BlogList = React.createClass({
         return (<p className="comment-box">
              "{comment.body}" <em><strong><img src={gravUrl}/>   {user}</strong></em>  </p>)
       }).reverse();
+      var numOfComments = comments.length;
         return (
                 <div className="col-md-4 box">
                   <a href={link}>
@@ -37,7 +33,7 @@ var BlogList = React.createClass({
                   <div className="blog-tags"><p>{blog.tags}</p></div>
 
                   <BlogComment blogId={blog._id} onPost={self.props.newData}/>
-                  <div className="blog-tags">{comments}</div>
+                  <div><a className="pull-left">Comments <span className="badge pull-left">{numOfComments}</span></a></div>
 
                 </div>
         	)

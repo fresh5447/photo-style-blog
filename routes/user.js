@@ -11,7 +11,7 @@ module.exports = function(app, passport) {
 
     app.get('/blog', function(req, res){
         res.render('blog.ejs', 
-        { message: req.flash('test'),
+        { message: req.flash('test', 'hello there guy!'),
           user: req.user
         }
 
@@ -67,11 +67,6 @@ module.exports = function(app, passport) {
         });
     });
 
-    app.get('/blog', function(req, res) {
-        res.render('blog.ejs', {
-            user : req.user // get the user out of session and pass to template
-        });
-    });
 
     app.get('/contact', function(req, res) {
         res.render('contact.ejs', {
