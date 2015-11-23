@@ -9,10 +9,17 @@ var BlogList = React.createClass({
       var link = "/blog/564ba8b7ddbd210f2f728626"
 
       var comments = blog.comments.map(function(comment){
-        return (<p className="comment-box">{comment.body}</p>)
+        if(comment.user){
+          var user = comment.user.local.username;
+
+        } else {
+          var user = "anonymous"
+        }
+        return (<p className="comment-box">
+                {comment.body} <em> posted by: </em> <strong>{user}</strong></p>)
       });
         return (
-                <div className="col-md-3 box">
+                <div className="col-md-4 box">
                   <a href={link}>
                   <img src={blog.img} className="img-thumbnail" alt=""/></a>
                   <div className="title">{blog.title}</div>

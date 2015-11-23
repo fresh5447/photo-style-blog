@@ -4,6 +4,16 @@ var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 router.use(bodyParser.urlencoded({ extended: true }))
 
+function isLoggedIn(req, res, next) {
+  console.log
+    // if user is authenticated in the session, carry on 
+    if (req.isAuthenticated())
+        return next();
+
+    // if they aren't redirect them to the home page
+    res.redirect('/');
+}
+
 var validBlogs = [];
 
 function filterByTitle(obj) {
@@ -18,7 +28,7 @@ function filterByTitle(obj) {
 router.route('/')
   /* GET All Blogs */
   .get(function(req, res) {
-    mongoose.model('Blog').find({}).populate({ path:'comments', populate:{path:'user', select:'local.email local.username'}}).exec( function(err, blogs){
+    mongoose.model('Blog').find({}).populate({ path:'comments', populate:{path:'user', select:'local.username'}}).exec( function(err, blogs){
       if(err){
         return console.log(err);
       } else {
@@ -116,7 +126,7 @@ router.route('/:id/comments')
 });
 
     // update the bear with this id (accessed at PUT http://localhost:8080/api/bears/:id)
-router.route('/:id/comment')
+router.route('/:id/comment', isLoggedIn)
   .post(function(req, res) {
     var body = req.body.body;
     var user = req.user;
