@@ -20,7 +20,7 @@ var BlogList = React.createClass({
                   <div className="blog-body"><p>{bodySummary}</p></div>
                   <div className="blog-tags"><p>{blog.tags}</p></div>
                   <div className="blog-tags">{comments}</div>
-                  <BlogComment blogId={blog._id} addCommentToList={self.props.gotNewCommentData}/>
+                   <BlogComment blogId={blog._id} onPost={self.props.newData}/>
                 </div>
         	)
       });

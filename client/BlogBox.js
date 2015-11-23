@@ -47,7 +47,7 @@ var BlogBox = React.createClass({
         <div>
         <input type="text" placeholder="search blogs" ref="search" />
         <button onClick={this.searchBlogs.bind(this)}>Search</button>
-            <BlogList data={this.state.data} gotNewCommentData={doRefresh}/>
+            <BlogList data={this.state.data} newData={doRefresh}/>
         </div>
           );
     }

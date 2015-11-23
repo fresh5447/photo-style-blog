@@ -15,9 +15,9 @@ var BlogComment = React.createClass({
             dataType: 'json',
             data: data,
             type:'POST',
-                console.log("posting data!",data, response)
-                if(self.props.addCommentToList){
-                  self.props.addCommentToList()
+            success: function(response){
+                if(self.props.onPost){
+                  self.props.onPost()
                 }
                 }.bind(this),
                 error: function(xhr, status, err){
