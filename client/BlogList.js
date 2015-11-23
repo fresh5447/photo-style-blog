@@ -16,7 +16,6 @@ var BlogList = React.createClass({
                   <a href={link}>
                   <img src={blog.img} className="img-thumbnail" alt=""/></a>
                   <div className="title">{blog.title}</div>
-                  <div className="title">{blog}</div>
                   <div className="blog-body"><p>{bodySummary}</p></div>
                   <div className="blog-tags"><p>{blog.tags}</p></div>
                   <div className="blog-tags">{comments}</div>
