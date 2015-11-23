@@ -28,7 +28,9 @@ function filterByTitle(obj) {
 router.route('/')
   /* GET All Blogs */
   .get(function(req, res) {
-    mongoose.model('Blog').find({}).populate({ path:'comments', populate:{path:'user', select:'local.username'}}).exec( function(err, blogs){
+    mongoose.model('Blog').find({})
+    .populate({ path:'comments', populate:{path:'user', select:'local.email local.username'}})
+    .exec( function(err, blogs){
       if(err){
         return console.log(err);
       } else {
@@ -114,10 +116,14 @@ router.route('/search/:query')
 
             res.send(blog);
     });
-}); 
+});
+
+
 router.route('/:id/comments')
     .get(function(req, res) {
-        mongoose.model('Blog').findById({  _id: req.params.id }).populate('comments').populate('user').exec( function(err, blog) {
+        mongoose.model('Blog').findById({  _id: req.params.id })
+        .populate({ path:'comments', populate:{path:'user', select:'local.email local.username'}})
+        .exec( function(err, blog) {
             if (err)
                 res.send(err);
 
@@ -125,14 +131,11 @@ router.route('/:id/comments')
     });
 });
 
-    // update the bear with this id (accessed at PUT http://localhost:8080/api/bears/:id)
 router.route('/:id/comment', isLoggedIn)
   .post(function(req, res) {
-    var body = req.body.body;
-    var user = req.user;
         mongoose.model('Comment').create({
-            body: body,
-            user: user,
+            body: req.body.body,
+            user: req.user,
             blog: req.params.id
         }, function(err, comment) {
             if (err)
@@ -144,7 +147,8 @@ router.route('/:id/comment', isLoggedIn)
                 return res.send(err)
               blog.comments.push(comment._id)
               blog.save();
-              res.json(comment)
+              console.log(comment);
+              res.json(comment);
             })
         });
     })

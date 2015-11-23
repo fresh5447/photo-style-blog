@@ -1,0 +1,511 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'MD5',
+1 verbose cli   '--save' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.2
+4 verbose install initial load of /Users/fresh/code/mtcs/personal_projects/photo-style-blog/package.json
+5 warn package.json your-blog@1.0.0 No description
+6 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/axios/package.json
+7 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/babel-core/package.json
+8 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/babel-eslint/package.json
+9 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/babel-loader/package.json
+10 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/babel-plugin-react-transform/package.json
+11 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/bcrypt-nodejs/package.json
+12 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/body-parser/package.json
+13 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/browserify/package.json
+14 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/chokidar/package.json
+15 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/connect-flash/package.json
+16 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/cookie-parser/package.json
+17 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/ejs/package.json
+18 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/eslint/package.json
+19 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/eslint-plugin-react/package.json
+20 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/express/package.json
+21 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/express-session/package.json
+22 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/method-override/package.json
+23 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/mongoose/package.json
+24 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/morgan/package.json
+25 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/passport/package.json
+26 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/passport-local/package.json
+27 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/react/package.json
+28 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/react-dom/package.json
+29 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/react-redux/package.json
+30 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/react-router/package.json
+31 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/react-transform-catch-errors/package.json
+32 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/react-transform-hmr/package.json
+33 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/reactify/package.json
+34 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/redbox-react/package.json
+35 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/redux/package.json
+36 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/redux-thunk/package.json
+37 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/rimraf/package.json
+38 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/rx/package.json
+39 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/superagent/package.json
+40 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/vinyl-source-stream/package.json
+41 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/watchify/package.json
+42 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/webpack/package.json
+43 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/webpack-dev-middleware/package.json
+44 verbose installManyTop reading scoped package data from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/webpack-hot-middleware/package.json
+45 info package.json bcrypt-nodejs@0.0.3 No license field.
+46 info package.json connect-flash@0.1.1 No license field.
+47 info package.json passport-local@1.0.0 No license field.
+48 info package.json webpack-dev-middleware@1.2.0 No license field.
+49 verbose readDependencies loading dependencies from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/package.json
+50 silly cache add args [ 'MD5', null ]
+51 verbose cache add spec MD5
+52 silly cache add parsed spec Result {
+52 silly cache add   raw: 'MD5',
+52 silly cache add   scope: null,
+52 silly cache add   name: 'MD5',
+52 silly cache add   rawSpec: '',
+52 silly cache add   spec: '*',
+52 silly cache add   type: 'range' }
+53 silly addNamed MD5@*
+54 verbose addNamed "*" is a valid semver range for MD5
+55 silly addNameRange { name: 'MD5', range: '*', hasData: false }
+56 silly mapToRegistry name MD5
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry uri https://registry.npmjs.org/MD5
+60 verbose addNameRange registry:https://registry.npmjs.org/MD5 not in flight; fetching
+61 verbose request uri https://registry.npmjs.org/MD5
+62 verbose request no auth needed
+63 info attempt registry request try #1 at 1:11:46 PM
+64 verbose request id 07c06c5cfcc1747a
+65 http request GET https://registry.npmjs.org/MD5
+66 http 200 https://registry.npmjs.org/MD5
+67 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+67 verbose headers   etag: '"34A9AIWDY12RH3KLJ92OMGPV6"',
+67 verbose headers   'content-type': 'application/json',
+67 verbose headers   'cache-control': 'max-age=60',
+67 verbose headers   'content-length': '13290',
+67 verbose headers   'accept-ranges': 'bytes',
+67 verbose headers   date: 'Mon, 23 Nov 2015 20:11:46 GMT',
+67 verbose headers   via: '1.1 varnish',
+67 verbose headers   age: '0',
+67 verbose headers   connection: 'keep-alive',
+67 verbose headers   'x-served-by': 'cache-sjc3125-SJC',
+67 verbose headers   'x-cache': 'HIT',
+67 verbose headers   'x-cache-hits': '1',
+67 verbose headers   'x-timer': 'S1448309505.951928,VS0,VE342',
+67 verbose headers   vary: 'Accept' }
+68 silly get cb [ 200,
+68 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+68 silly get     etag: '"34A9AIWDY12RH3KLJ92OMGPV6"',
+68 silly get     'content-type': 'application/json',
+68 silly get     'cache-control': 'max-age=60',
+68 silly get     'content-length': '13290',
+68 silly get     'accept-ranges': 'bytes',
+68 silly get     date: 'Mon, 23 Nov 2015 20:11:46 GMT',
+68 silly get     via: '1.1 varnish',
+68 silly get     age: '0',
+68 silly get     connection: 'keep-alive',
+68 silly get     'x-served-by': 'cache-sjc3125-SJC',
+68 silly get     'x-cache': 'HIT',
+68 silly get     'x-cache-hits': '1',
+68 silly get     'x-timer': 'S1448309505.951928,VS0,VE342',
+68 silly get     vary: 'Accept' } ]
+69 verbose get saving MD5 to /Users/fresh/.npm/registry.npmjs.org/MD5/.cache.json
+70 silly addNameRange number 2 { name: 'MD5', range: '*', hasData: true }
+71 silly addNameRange versions [ 'MD5',
+71 silly addNameRange   [ '0.0.0',
+71 silly addNameRange     '1.0.0',
+71 silly addNameRange     '1.0.1',
+71 silly addNameRange     '1.0.2',
+71 silly addNameRange     '1.0.3',
+71 silly addNameRange     '1.1.0',
+71 silly addNameRange     '1.2.0',
+71 silly addNameRange     '1.2.1',
+71 silly addNameRange     '1.2.2',
+71 silly addNameRange     '1.3.0' ] ]
+72 silly addNamed MD5@1.3.0
+73 verbose addNamed "1.3.0" is a plain semver version for MD5
+74 warn deprecated MD5@1.3.0: deprecated, use lowercase 'md5@2.x' from now on
+75 silly mapToRegistry name MD5
+76 silly mapToRegistry using default registry
+77 silly mapToRegistry registry https://registry.npmjs.org/
+78 silly mapToRegistry uri https://registry.npmjs.org/MD5
+79 verbose addRemoteTarball https://registry.npmjs.org/MD5/-/MD5-1.3.0.tgz not in flight; adding
+80 verbose addRemoteTarball [ 'https://registry.npmjs.org/MD5/-/MD5-1.3.0.tgz',
+80 verbose addRemoteTarball   '3cc266f0e89abb6b43a50f39a459df5bfde0b240' ]
+81 info retry fetch attempt 1 at 1:11:47 PM
+82 info attempt registry request try #1 at 1:11:47 PM
+83 http fetch GET https://registry.npmjs.org/MD5/-/MD5-1.3.0.tgz
+84 http fetch 200 https://registry.npmjs.org/MD5/-/MD5-1.3.0.tgz
+85 silly fetchAndShaCheck shasum 3cc266f0e89abb6b43a50f39a459df5bfde0b240
+86 verbose addTmpTarball /var/folders/hj/t4bgyhld5kl8zr63dzm72c340000gn/T/npm-23987-4a384424/registry.npmjs.org/MD5/-/MD5-1.3.0.tgz not in flight; adding
+87 verbose addTmpTarball already have metadata; skipping unpack for MD5@1.3.0
+88 silly cache afterAdd MD5@1.3.0
+89 verbose afterAdd /Users/fresh/.npm/MD5/1.3.0/package/package.json not in flight; writing
+90 verbose afterAdd /Users/fresh/.npm/MD5/1.3.0/package/package.json written
+91 silly install resolved [ { author:
+91 silly install resolved      { name: 'Paul Vorbach',
+91 silly install resolved        email: 'paul@vorb.de',
+91 silly install resolved        url: 'http://vorb.de' },
+91 silly install resolved     contributors: [ [Object] ],
+91 silly install resolved     name: 'MD5',
+91 silly install resolved     description: 'native js function for hashing messages with MD5 (deprecated, use lowercase md5@>=2.x from now on)',
+91 silly install resolved     tags: [ 'md5', 'hash', 'encryption', 'native', 'message digest' ],
+91 silly install resolved     version: '1.3.0',
+91 silly install resolved     repository: { type: 'git', url: 'git://github.com/pvorb/node-md5.git' },
+91 silly install resolved     bugs: { url: 'https://github.com/pvorb/node-md5/issues' },
+91 silly install resolved     main: 'md5.js',
+91 silly install resolved     scripts: { test: 'mocha' },
+91 silly install resolved     engines: { node: '*' },
+91 silly install resolved     dependencies: { charenc: '>= 0.0.1', crypt: '>= 0.0.1' },
+91 silly install resolved     devDependencies: { mocha: '~ 1.4.2' },
+91 silly install resolved     optionalDependencies: {},
+91 silly install resolved     license: 'BSD-3-Clause',
+91 silly install resolved     gitHead: '01663ccb3b365cd347e959878c2d9deb009d1a86',
+91 silly install resolved     homepage: 'https://github.com/pvorb/node-md5#readme',
+91 silly install resolved     _id: 'MD5@1.3.0',
+91 silly install resolved     _shasum: '3cc266f0e89abb6b43a50f39a459df5bfde0b240',
+91 silly install resolved     _from: 'MD5@*',
+91 silly install resolved     _npmVersion: '2.11.2',
+91 silly install resolved     _nodeVersion: '0.12.5',
+91 silly install resolved     _npmUser: { name: 'pvorb', email: 'paul@vorba.ch' },
+91 silly install resolved     dist:
+91 silly install resolved      { shasum: '3cc266f0e89abb6b43a50f39a459df5bfde0b240',
+91 silly install resolved        tarball: 'http://registry.npmjs.org/MD5/-/MD5-1.3.0.tgz' },
+91 silly install resolved     maintainers: [ [Object] ],
+91 silly install resolved     deprecated: 'deprecated, use lowercase \'md5@2.x\' from now on',
+91 silly install resolved     directories: {},
+91 silly install resolved     _resolved: 'https://registry.npmjs.org/MD5/-/MD5-1.3.0.tgz' } ]
+92 info install MD5@1.3.0 into /Users/fresh/code/mtcs/personal_projects/photo-style-blog
+93 info installOne MD5@1.3.0
+94 verbose installOne of MD5 to /Users/fresh/code/mtcs/personal_projects/photo-style-blog not in flight; installing
+95 verbose lock using /Users/fresh/.npm/_locks/MD5-0ac116ecef2a7f16.lock for /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5
+96 silly install write writing MD5 1.3.0 to /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5
+97 verbose unbuild node_modules/MD5
+98 silly gentlyRm /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5 is being purged from base /Users/fresh/code/mtcs/personal_projects/photo-style-blog
+99 verbose gentlyRm don't care about contents; nuking /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5
+100 verbose tar unpack /Users/fresh/.npm/MD5/1.3.0/package.tgz
+101 verbose tar unpacking to /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5
+102 silly gentlyRm /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5 is being purged
+103 verbose gentlyRm don't care about contents; nuking /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5
+104 silly gunzTarPerm modes [ '755', '644' ]
+105 silly gunzTarPerm extractEntry package.json
+106 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+107 silly gunzTarPerm extractEntry .npmignore
+108 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+109 silly gunzTarPerm extractEntry README.md
+110 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+111 silly gunzTarPerm extractEntry LICENSE
+112 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+113 silly gunzTarPerm extractEntry md5.js
+114 silly gunzTarPerm modified mode [ 'md5.js', 438, 420 ]
+115 silly gunzTarPerm extractEntry test.js
+116 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+117 silly gunzTarPerm extractEntry .travis.yml
+118 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+119 verbose write writing to /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/package.json
+120 info preinstall MD5@1.3.0
+121 verbose readDependencies loading dependencies from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/package.json
+122 silly prepareForInstallMany adding charenc@>= 0.0.1 from MD5 dependencies
+123 silly prepareForInstallMany adding crypt@>= 0.0.1 from MD5 dependencies
+124 verbose readDependencies loading dependencies from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/package.json
+125 silly cache add args [ 'crypt@>= 0.0.1', null ]
+126 verbose cache add spec crypt@>= 0.0.1
+127 silly cache add parsed spec Result {
+127 silly cache add   raw: 'crypt@>= 0.0.1',
+127 silly cache add   scope: null,
+127 silly cache add   name: 'crypt',
+127 silly cache add   rawSpec: '>= 0.0.1',
+127 silly cache add   spec: '>=0.0.1',
+127 silly cache add   type: 'range' }
+128 silly addNamed crypt@>=0.0.1
+129 verbose addNamed ">=0.0.1" is a valid semver range for crypt
+130 silly addNameRange { name: 'crypt', range: '>=0.0.1', hasData: false }
+131 silly mapToRegistry name crypt
+132 silly mapToRegistry using default registry
+133 silly mapToRegistry registry https://registry.npmjs.org/
+134 silly mapToRegistry uri https://registry.npmjs.org/crypt
+135 verbose addNameRange registry:https://registry.npmjs.org/crypt not in flight; fetching
+136 silly cache add args [ 'charenc@>= 0.0.1', null ]
+137 verbose cache add spec charenc@>= 0.0.1
+138 silly cache add parsed spec Result {
+138 silly cache add   raw: 'charenc@>= 0.0.1',
+138 silly cache add   scope: null,
+138 silly cache add   name: 'charenc',
+138 silly cache add   rawSpec: '>= 0.0.1',
+138 silly cache add   spec: '>=0.0.1',
+138 silly cache add   type: 'range' }
+139 silly addNamed charenc@>=0.0.1
+140 verbose addNamed ">=0.0.1" is a valid semver range for charenc
+141 silly addNameRange { name: 'charenc', range: '>=0.0.1', hasData: false }
+142 silly mapToRegistry name charenc
+143 silly mapToRegistry using default registry
+144 silly mapToRegistry registry https://registry.npmjs.org/
+145 silly mapToRegistry uri https://registry.npmjs.org/charenc
+146 verbose addNameRange registry:https://registry.npmjs.org/charenc not in flight; fetching
+147 verbose request uri https://registry.npmjs.org/crypt
+148 verbose request no auth needed
+149 info attempt registry request try #1 at 1:11:47 PM
+150 http request GET https://registry.npmjs.org/crypt
+151 verbose request uri https://registry.npmjs.org/charenc
+152 verbose request no auth needed
+153 info attempt registry request try #1 at 1:11:47 PM
+154 http request GET https://registry.npmjs.org/charenc
+155 http 200 https://registry.npmjs.org/crypt
+156 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+156 verbose headers   etag: '"645DM9B0EL8881WN2UNM01P0E"',
+156 verbose headers   'content-type': 'application/json',
+156 verbose headers   'cache-control': 'max-age=60',
+156 verbose headers   'content-length': '2200',
+156 verbose headers   'accept-ranges': 'bytes',
+156 verbose headers   date: 'Mon, 23 Nov 2015 20:11:46 GMT',
+156 verbose headers   via: '1.1 varnish',
+156 verbose headers   age: '10',
+156 verbose headers   connection: 'keep-alive',
+156 verbose headers   'x-served-by': 'cache-sjc3122-SJC',
+156 verbose headers   'x-cache': 'HIT',
+156 verbose headers   'x-cache-hits': '1',
+156 verbose headers   'x-timer': 'S1448309506.697628,VS0,VE0',
+156 verbose headers   vary: 'Accept' }
+157 silly get cb [ 200,
+157 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+157 silly get     etag: '"645DM9B0EL8881WN2UNM01P0E"',
+157 silly get     'content-type': 'application/json',
+157 silly get     'cache-control': 'max-age=60',
+157 silly get     'content-length': '2200',
+157 silly get     'accept-ranges': 'bytes',
+157 silly get     date: 'Mon, 23 Nov 2015 20:11:46 GMT',
+157 silly get     via: '1.1 varnish',
+157 silly get     age: '10',
+157 silly get     connection: 'keep-alive',
+157 silly get     'x-served-by': 'cache-sjc3122-SJC',
+157 silly get     'x-cache': 'HIT',
+157 silly get     'x-cache-hits': '1',
+157 silly get     'x-timer': 'S1448309506.697628,VS0,VE0',
+157 silly get     vary: 'Accept' } ]
+158 verbose get saving crypt to /Users/fresh/.npm/registry.npmjs.org/crypt/.cache.json
+159 http 200 https://registry.npmjs.org/charenc
+160 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+160 verbose headers   etag: '"56QWGF6L07H5HVAFRB2ZA83YH"',
+160 verbose headers   'content-type': 'application/json',
+160 verbose headers   'cache-control': 'max-age=60',
+160 verbose headers   'content-length': '2266',
+160 verbose headers   'accept-ranges': 'bytes',
+160 verbose headers   date: 'Mon, 23 Nov 2015 20:11:46 GMT',
+160 verbose headers   via: '1.1 varnish',
+160 verbose headers   age: '10',
+160 verbose headers   connection: 'keep-alive',
+160 verbose headers   'x-served-by': 'cache-sjc3134-SJC',
+160 verbose headers   'x-cache': 'HIT',
+160 verbose headers   'x-cache-hits': '1',
+160 verbose headers   'x-timer': 'S1448309506.699793,VS0,VE0',
+160 verbose headers   vary: 'Accept' }
+161 silly get cb [ 200,
+161 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+161 silly get     etag: '"56QWGF6L07H5HVAFRB2ZA83YH"',
+161 silly get     'content-type': 'application/json',
+161 silly get     'cache-control': 'max-age=60',
+161 silly get     'content-length': '2266',
+161 silly get     'accept-ranges': 'bytes',
+161 silly get     date: 'Mon, 23 Nov 2015 20:11:46 GMT',
+161 silly get     via: '1.1 varnish',
+161 silly get     age: '10',
+161 silly get     connection: 'keep-alive',
+161 silly get     'x-served-by': 'cache-sjc3134-SJC',
+161 silly get     'x-cache': 'HIT',
+161 silly get     'x-cache-hits': '1',
+161 silly get     'x-timer': 'S1448309506.699793,VS0,VE0',
+161 silly get     vary: 'Accept' } ]
+162 verbose get saving charenc to /Users/fresh/.npm/registry.npmjs.org/charenc/.cache.json
+163 silly addNameRange number 2 { name: 'crypt', range: '>=0.0.1', hasData: true }
+164 silly addNameRange versions [ 'crypt', [ '0.0.0', '0.0.1' ] ]
+165 silly addNamed crypt@0.0.1
+166 verbose addNamed "0.0.1" is a plain semver version for crypt
+167 silly mapToRegistry name crypt
+168 silly mapToRegistry using default registry
+169 silly mapToRegistry registry https://registry.npmjs.org/
+170 silly mapToRegistry uri https://registry.npmjs.org/crypt
+171 verbose addRemoteTarball https://registry.npmjs.org/crypt/-/crypt-0.0.1.tgz not in flight; adding
+172 verbose addRemoteTarball [ 'https://registry.npmjs.org/crypt/-/crypt-0.0.1.tgz',
+172 verbose addRemoteTarball   '5f11b21a6c05ef1b5e79708366da6374ece1e6a2' ]
+173 info retry fetch attempt 1 at 1:11:47 PM
+174 info attempt registry request try #1 at 1:11:47 PM
+175 http fetch GET https://registry.npmjs.org/crypt/-/crypt-0.0.1.tgz
+176 silly addNameRange number 2 { name: 'charenc', range: '>=0.0.1', hasData: true }
+177 silly addNameRange versions [ 'charenc', [ '0.0.0', '0.0.1' ] ]
+178 silly addNamed charenc@0.0.1
+179 verbose addNamed "0.0.1" is a plain semver version for charenc
+180 silly mapToRegistry name charenc
+181 silly mapToRegistry using default registry
+182 silly mapToRegistry registry https://registry.npmjs.org/
+183 silly mapToRegistry uri https://registry.npmjs.org/charenc
+184 verbose addRemoteTarball https://registry.npmjs.org/charenc/-/charenc-0.0.1.tgz not in flight; adding
+185 verbose addRemoteTarball [ 'https://registry.npmjs.org/charenc/-/charenc-0.0.1.tgz',
+185 verbose addRemoteTarball   '004cff9feaf102382ed12db58dd6f962796d6e88' ]
+186 info retry fetch attempt 1 at 1:11:47 PM
+187 info attempt registry request try #1 at 1:11:47 PM
+188 http fetch GET https://registry.npmjs.org/charenc/-/charenc-0.0.1.tgz
+189 http fetch 200 https://registry.npmjs.org/crypt/-/crypt-0.0.1.tgz
+190 silly fetchAndShaCheck shasum 5f11b21a6c05ef1b5e79708366da6374ece1e6a2
+191 verbose addTmpTarball /var/folders/hj/t4bgyhld5kl8zr63dzm72c340000gn/T/npm-23987-4a384424/registry.npmjs.org/crypt/-/crypt-0.0.1.tgz not in flight; adding
+192 verbose addTmpTarball already have metadata; skipping unpack for crypt@0.0.1
+193 http fetch 200 https://registry.npmjs.org/charenc/-/charenc-0.0.1.tgz
+194 silly fetchAndShaCheck shasum 004cff9feaf102382ed12db58dd6f962796d6e88
+195 verbose addTmpTarball /var/folders/hj/t4bgyhld5kl8zr63dzm72c340000gn/T/npm-23987-4a384424/registry.npmjs.org/charenc/-/charenc-0.0.1.tgz not in flight; adding
+196 verbose addTmpTarball already have metadata; skipping unpack for charenc@0.0.1
+197 silly cache afterAdd crypt@0.0.1
+198 verbose afterAdd /Users/fresh/.npm/crypt/0.0.1/package/package.json not in flight; writing
+199 verbose afterAdd /Users/fresh/.npm/crypt/0.0.1/package/package.json written
+200 silly cache afterAdd charenc@0.0.1
+201 verbose afterAdd /Users/fresh/.npm/charenc/0.0.1/package/package.json not in flight; writing
+202 verbose afterAdd /Users/fresh/.npm/charenc/0.0.1/package/package.json written
+203 silly install resolved [ { author:
+203 silly install resolved      { name: 'Paul Vorbach',
+203 silly install resolved        email: 'paul@vorb.de',
+203 silly install resolved        url: 'http://vorb.de' },
+203 silly install resolved     name: 'crypt',
+203 silly install resolved     description: 'utilities for encryption and hashing',
+203 silly install resolved     tags: [ 'hash', 'security' ],
+203 silly install resolved     version: '0.0.1',
+203 silly install resolved     repository: { type: 'git', url: 'git://github.com/pvorb/node-crypt.git' },
+203 silly install resolved     bugs: { url: 'https://github.com/pvorb/node-crypt/issues' },
+203 silly install resolved     main: 'crypt.js',
+203 silly install resolved     engines: { node: '*' },
+203 silly install resolved     _npmUser: { name: 'pvorb', email: 'paul@vorb.de' },
+203 silly install resolved     _id: 'crypt@0.0.1',
+203 silly install resolved     dependencies: {},
+203 silly install resolved     devDependencies: {},
+203 silly install resolved     _engineSupported: true,
+203 silly install resolved     _npmVersion: '1.0.103',
+203 silly install resolved     _nodeVersion: 'v0.4.12',
+203 silly install resolved     _defaultsLoaded: true,
+203 silly install resolved     dist:
+203 silly install resolved      { shasum: '5f11b21a6c05ef1b5e79708366da6374ece1e6a2',
+203 silly install resolved        tarball: 'http://registry.npmjs.org/crypt/-/crypt-0.0.1.tgz' },
+203 silly install resolved     maintainers: [ [Object] ],
+203 silly install resolved     directories: {},
+203 silly install resolved     _shasum: '5f11b21a6c05ef1b5e79708366da6374ece1e6a2',
+203 silly install resolved     _resolved: 'https://registry.npmjs.org/crypt/-/crypt-0.0.1.tgz',
+203 silly install resolved     _from: 'crypt@>=0.0.1' },
+203 silly install resolved   { author:
+203 silly install resolved      { name: 'Paul Vorbach',
+203 silly install resolved        email: 'paul@vorb.de',
+203 silly install resolved        url: 'http://vorb.de' },
+203 silly install resolved     name: 'charenc',
+203 silly install resolved     description: 'character encoding utilities',
+203 silly install resolved     tags: [ 'utf8', 'binary', 'byte', 'string' ],
+203 silly install resolved     version: '0.0.1',
+203 silly install resolved     repository: { type: 'git', url: 'git://github.com/pvorb/node-charenc.git' },
+203 silly install resolved     bugs: { url: 'https://github.com/pvorb/node-charenc/issues' },
+203 silly install resolved     main: 'charenc.js',
+203 silly install resolved     engines: { node: '*' },
+203 silly install resolved     _npmUser: { name: 'pvorb', email: 'paul@vorb.de' },
+203 silly install resolved     _id: 'charenc@0.0.1',
+203 silly install resolved     dependencies: {},
+203 silly install resolved     devDependencies: {},
+203 silly install resolved     _engineSupported: true,
+203 silly install resolved     _npmVersion: '1.0.103',
+203 silly install resolved     _nodeVersion: 'v0.4.12',
+203 silly install resolved     _defaultsLoaded: true,
+203 silly install resolved     dist:
+203 silly install resolved      { shasum: '004cff9feaf102382ed12db58dd6f962796d6e88',
+203 silly install resolved        tarball: 'http://registry.npmjs.org/charenc/-/charenc-0.0.1.tgz' },
+203 silly install resolved     maintainers: [ [Object] ],
+203 silly install resolved     directories: {},
+203 silly install resolved     _shasum: '004cff9feaf102382ed12db58dd6f962796d6e88',
+203 silly install resolved     _resolved: 'https://registry.npmjs.org/charenc/-/charenc-0.0.1.tgz',
+203 silly install resolved     _from: 'charenc@>=0.0.1' } ]
+204 info install crypt@0.0.1 into /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5
+205 info install charenc@0.0.1 into /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5
+206 info installOne crypt@0.0.1
+207 verbose installOne of crypt to /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5 not in flight; installing
+208 info installOne charenc@0.0.1
+209 verbose installOne of charenc to /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5 not in flight; installing
+210 verbose lock using /Users/fresh/.npm/_locks/crypt-e6e62dcf98313332.lock for /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/node_modules/crypt
+211 silly install write writing crypt 0.0.1 to /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/node_modules/crypt
+212 verbose lock using /Users/fresh/.npm/_locks/charenc-80e031b510beb6fa.lock for /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/node_modules/charenc
+213 silly install write writing charenc 0.0.1 to /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/node_modules/charenc
+214 verbose unbuild node_modules/MD5/node_modules/crypt
+215 verbose unbuild node_modules/MD5/node_modules/charenc
+216 silly gentlyRm /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/node_modules/crypt is being purged from base /Users/fresh/code/mtcs/personal_projects/photo-style-blog
+217 verbose gentlyRm don't care about contents; nuking /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/node_modules/crypt
+218 verbose tar unpack /Users/fresh/.npm/crypt/0.0.1/package.tgz
+219 verbose tar unpacking to /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/node_modules/crypt
+220 silly gentlyRm /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/node_modules/crypt is being purged
+221 verbose gentlyRm don't care about contents; nuking /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/node_modules/crypt
+222 silly gentlyRm /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/node_modules/charenc is being purged from base /Users/fresh/code/mtcs/personal_projects/photo-style-blog
+223 verbose gentlyRm don't care about contents; nuking /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/node_modules/charenc
+224 silly gunzTarPerm modes [ '755', '644' ]
+225 verbose tar unpack /Users/fresh/.npm/charenc/0.0.1/package.tgz
+226 verbose tar unpacking to /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/node_modules/charenc
+227 silly gentlyRm /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/node_modules/charenc is being purged
+228 verbose gentlyRm don't care about contents; nuking /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/node_modules/charenc
+229 silly gunzTarPerm modes [ '755', '644' ]
+230 silly gunzTarPerm extractEntry crypt.js
+231 silly gunzTarPerm extractEntry charenc.js
+232 silly gunzTarPerm extractEntry README.mkd
+233 silly gunzTarPerm extractEntry package.json
+234 silly gunzTarPerm extractEntry package.json
+235 silly gunzTarPerm extractEntry LICENSE.mkd
+236 silly gunzTarPerm extractEntry LICENSE.mkd
+237 silly gunzTarPerm extractEntry README.js
+238 verbose write writing to /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/node_modules/crypt/package.json
+239 verbose write writing to /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/node_modules/charenc/package.json
+240 info preinstall crypt@0.0.1
+241 info preinstall charenc@0.0.1
+242 verbose readDependencies loading dependencies from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/node_modules/crypt/package.json
+243 verbose readDependencies loading dependencies from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/node_modules/charenc/package.json
+244 verbose readDependencies loading dependencies from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/node_modules/crypt/package.json
+245 verbose readDependencies loading dependencies from /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/node_modules/charenc/package.json
+246 silly install resolved []
+247 verbose about to build /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/node_modules/crypt
+248 info build /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/node_modules/crypt
+249 silly install resolved []
+250 verbose about to build /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/node_modules/charenc
+251 info build /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/node_modules/charenc
+252 info linkStuff crypt@0.0.1
+253 silly linkStuff crypt@0.0.1 has /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/node_modules as its parent node_modules
+254 info linkStuff charenc@0.0.1
+255 silly linkStuff charenc@0.0.1 has /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/node_modules as its parent node_modules
+256 verbose linkBins crypt@0.0.1
+257 verbose linkMans crypt@0.0.1
+258 verbose rebuildBundles crypt@0.0.1
+259 verbose linkBins charenc@0.0.1
+260 verbose linkMans charenc@0.0.1
+261 verbose rebuildBundles charenc@0.0.1
+262 info install crypt@0.0.1
+263 info install charenc@0.0.1
+264 info postinstall crypt@0.0.1
+265 info postinstall charenc@0.0.1
+266 verbose unlock done using /Users/fresh/.npm/_locks/crypt-e6e62dcf98313332.lock for /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/node_modules/crypt
+267 verbose unlock done using /Users/fresh/.npm/_locks/charenc-80e031b510beb6fa.lock for /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5/node_modules/charenc
+268 verbose about to build /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5
+269 info build /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5
+270 info linkStuff MD5@1.3.0
+271 silly linkStuff MD5@1.3.0 has /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules as its parent node_modules
+272 verbose linkBins MD5@1.3.0
+273 verbose linkMans MD5@1.3.0
+274 verbose rebuildBundles MD5@1.3.0
+275 verbose rebuildBundles [ 'charenc', 'crypt' ]
+276 info install MD5@1.3.0
+277 info postinstall MD5@1.3.0
+278 verbose unlock done using /Users/fresh/.npm/_locks/MD5-0ac116ecef2a7f16.lock for /Users/fresh/code/mtcs/personal_projects/photo-style-blog/node_modules/MD5
+279 verbose validateInstall loading /Users/fresh/code/mtcs/personal_projects/photo-style-blog/package.json for validation
+280 verbose stack Error: The package react@0.13.3 does not satisfy its siblings' peerDependencies requirements!
+280 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+280 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+280 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+280 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+280 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+280 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+280 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+280 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+280 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+280 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+281 verbose cwd /Users/fresh/code/mtcs/personal_projects/photo-style-blog
+282 error Darwin 14.5.0
+283 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "MD5" "--save"
+284 error node v4.2.2
+285 error npm  v2.14.7
+286 error code EPEERINVALID
+287 error peerinvalid The package react@0.13.3 does not satisfy its siblings' peerDependencies requirements!
+287 error peerinvalid Peer react-redux@4.0.0 wants react@^0.14.0
+287 error peerinvalid Peer react-dom@0.14.2 wants react@^0.14.2
+287 error peerinvalid Peer redbox-react@1.2.0 wants react@>=0.13.2 || ^0.14.0-rc1
+288 verbose exit [ 1, true ]

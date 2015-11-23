@@ -16,9 +16,11 @@ var BlogComment = React.createClass({
             data: data,
             type:'POST',
             success: function(response){
-                if(self.props.onPost){
-                  self.props.onPost()
+
+                if(this.props.onPost){
+                  this.props.onPost()
                 }
+
                 }.bind(this),
                 error: function(xhr, status, err){
                     console.log("not posting data!")
@@ -26,7 +28,6 @@ var BlogComment = React.createClass({
                 }.bind(this)
         })
         this.refs.comment.getDOMNode().value = ''
-        
     },
     render: function() {
       return (

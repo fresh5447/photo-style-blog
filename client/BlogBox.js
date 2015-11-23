@@ -39,17 +39,22 @@ var BlogBox = React.createClass({
 
 
   render: function() {
+
     var self = this;
+
     var doRefresh = function(){
       self.loadBlogsFromServer()
     }
-        return (
+
+    return (
         <div>
         <input type="text" placeholder="search blogs" ref="search" />
-        <button onClick={this.searchBlogs.bind(this)}>Search</button>
-            <BlogList data={this.state.data} newData={doRefresh}/>
+        <button onClick={this.searchBlogs}>Search</button>
+
+        <BlogList data={this.state.data} newData={doRefresh}/>
+
         </div>
-          );
+        );
     }
 });
 
