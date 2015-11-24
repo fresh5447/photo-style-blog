@@ -47,7 +47,7 @@ if (process.env.NODE_ENV === 'production') {
     watcher.on('all', function() {
       console.log('Clearing /server/ module cache from server');
       Object.keys(require.cache).forEach(function(id) {
-        if (/\/server\//.test(id)) delete require.cache[id];
+        if (/\/server\//.test(id)){ delete require.cache[id]; }
       });
     });
   });

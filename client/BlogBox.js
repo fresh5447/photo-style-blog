@@ -1,7 +1,6 @@
 var React = require('react');
 var BlogList = require('./BlogList');
 
-
 var BlogBox = React.createClass({
 
   getInitialState: function(){

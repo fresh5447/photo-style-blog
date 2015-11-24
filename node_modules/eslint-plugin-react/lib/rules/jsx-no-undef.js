@@ -55,10 +55,23 @@ module.exports = function(context) {
 
   return {
     JSXOpeningElement: function(node) {
-      if (isTagName(node.name.name)) {
+      switch (node.name.type) {
+        case 'JSXIdentifier':
+          node = node.name;
+          break;
+        case 'JSXMemberExpression':
+          node = node.name.object;
+          break;
+        case 'JSXNamespacedName':
+          node = node.name.namespace;
+          break;
+        default:
+          break;
+      }
+      if (isTagName(node.name)) {
         return;
       }
-      checkIdentifierInJSX(node.name);
+      checkIdentifierInJSX(node);
     }
   };
 
