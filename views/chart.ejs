@@ -2,19 +2,17 @@
   <body>
 
 <%- include ./partials/navbar.ejs %>
+    
+    <% if (message.length > 0) { %>
+        <div class="alert alert-danger"><%= message %></div>
+    <% } %>
 
-  <section>
-    <div class="row">
-      <div class="container">
-        <span id="BlogForm"></span>
+<!-- PORTFOLIO -->
+    <section>
+      <div>
+        <h3>Fancy Chart</h3>
       </div>
-    </div>
-  </section>
-
-  if user 
-    componenet
-  else 
-   component
+    </section>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -22,6 +20,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/lightbox.js"></script>
-    <script src="./static/blogForm.js"></script>
+    <script src="./static/home.js"></script>
   </body>
 </html>

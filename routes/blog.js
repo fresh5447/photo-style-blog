@@ -28,6 +28,7 @@ function filterByTitle(obj) {
 router.route('/')
   /* GET All Blogs */
   .get(function(req, res) {
+    console.log(req.user)
     mongoose.model('Blog').find({})
     .populate({ path:'comments', populate:{path:'user', select:'local.email local.username'}})
     .exec( function(err, blogs){
@@ -39,6 +40,8 @@ router.route('/')
       }
     });
   })
+
+
 
   .post(function(req, res){
     console.log(req.body);
@@ -63,6 +66,24 @@ router.route('/')
     });
   });
 
+router.route('/user')
+  /* GET All Blogs */
+  .get(function(req, res) {
+
+if(req.user){
+    console.log(req.user)
+    mongoose.model('User').findById({_id: req.user._id},
+      function(err, user){
+      if(err){
+        return console.log(err);
+      } else {
+        res.json(user)
+      }
+    });
+} else {
+  res.json({user: "anonymous SERVER"})
+}
+  })
 
 router.route('/:id')
     .get(function(req, res) {

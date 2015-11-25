@@ -4,8 +4,10 @@ var BlogList = require('./BlogList');
 var BlogBox = React.createClass({
 
   getInitialState: function(){
-    return {data: []};
+    return {data: [], user:[]};
   },
+
+
 
   loadBlogsFromServer: function(search) {
     var url = this.props.url;
@@ -26,6 +28,8 @@ var BlogBox = React.createClass({
       }.bind(this)
     });
   },
+
+
 
   searchBlogs: function(){
     var text = this.refs.search.getDOMNode().value;
@@ -50,7 +54,7 @@ var BlogBox = React.createClass({
         <input type="text" placeholder="search blogs" ref="search" />
         <button onClick={this.searchBlogs}>Search</button>
 
-        <BlogList data={this.state.data} newData={doRefresh}/>
+        <BlogList user={this.state.user} data={this.state.data} newData={doRefresh}/>
 
         </div>
         );

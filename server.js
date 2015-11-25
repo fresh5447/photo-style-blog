@@ -1,4 +1,4 @@
-var express = require('express');
+ var express = require('express');
 var path = require('path');
 var http = require('http');
 var fs = require('fs');
@@ -65,14 +65,8 @@ app.use(bodyParser()); // get information from html forms
 app.use(session({ secret: 'ilovescotchscotchyscotchscotch' })); // session secret
 app.use(passport.initialize());
 app.use(passport.session()); // persistent login sessions
-app.use(flash()); // use connect-flash for flash messages stored in session
-
-app.get('/flash', function(req, res){
-  // Set a flash message by passing the key, followed by the value, to req.flash().
-  req.flash('info', 'Flash is back!')
-  req.flash('test', 'Flash is back!')
-  res.redirect('/');
-});
+app.use(session({cookie: { maxAge: 60000 }}));
+app.use(flash());
 
 require('./config/passport')(passport);
 // routes ======================================================================
@@ -82,6 +76,15 @@ app.use('/api/blogs', blogRoutes);
 app.use('/api/github', githubRoutes);
 // app.use('/api/tweets', twitterRoutes);
 // app.use('/api/github', githubRoutes);
+
+app.get('/test123', function(req, res){
+  req.flash('test', 'it worked');
+  res.redirect('/test')
+});
+
+app.get('/test', function(req, res){
+  req.flash('test');
+});
 
 
 app.listen(app.get('port'), function() {

@@ -18,6 +18,16 @@ module.exports = function(app, passport) {
         );
     });
 
+
+    app.get('/chart', function(req, res){
+        res.render('chart.ejs', 
+        { message: req.flash('test', 'hello there guy!'),
+          user: req.user
+        }
+
+        );
+    });
+
     app.get('/blog/:id', function(req, res) {
         mongoose.model('Blog').findById({_id: req.params.id}, function(err, blog){
             console.log(blog);
