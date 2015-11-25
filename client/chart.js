@@ -5,7 +5,7 @@ var WakaChart = React.createClass({
 	render: function(){
 	
 	var dataOne = {
-	    labels: ["January", "February", "March", "April", "May", "June", "July"],
+	    labels: ["JavaScript", "EJS", "JSON", "JSX", "Other", "JSX"],
 	    datasets: [
 	        {
 	            label: "My First dataset",
@@ -15,7 +15,7 @@ var WakaChart = React.createClass({
 	            pointStrokeColor: "#fff",
 	            pointHighlightFill: "#fff",
 	            pointHighlightStroke: "rgba(220,220,220,1)",
-	            data: [65, 59, 80, 81, 56, 55, 40]
+	            data: [87.76, 4.82, 3.01, 2.11, 1.18, 1.10]
 	        },
 	        {
 	            label: "My Second dataset",
@@ -25,67 +25,64 @@ var WakaChart = React.createClass({
 	            pointStrokeColor: "#fff",
 	            pointHighlightFill: "#fff",
 	            pointHighlightStroke: "rgba(151,187,205,1)",
-	            data: [28, 48, 40, 19, 86, 27, 90]
+	            data: [87.76, 4.82, 3.01, 2.11, 1.18, 1.10]
 	        }
 	    ]
 	};
 
 	var dataTwo = [
     {
-        value: 300,
+        value: 87.76,
         color:"#F7464A",
         highlight: "#FF5A5E",
-        label: "Red"
+        label: "JavaScript"
     },
     {
-        value: 50,
+        value: 4.82,
         color: "#46BFBD",
         highlight: "#5AD3D1",
-        label: "Green"
+        label: "EJS"
     },
     {
-        value: 100,
+        value: 3.01,
         color: "#FDB45C",
         highlight: "#FFC870",
-        label: "Yellow"
+        label: "JSON"
     },
     {
-        value: 40,
+        value: 2.11,
         color: "#949FB1",
         highlight: "#A8B3C5",
-        label: "Grey"
+        label: "JSX"
     },
     {
-        value: 120,
+        value: 1.18,
         color: "#4D5360",
         highlight: "#616774",
-        label: "Dark Grey"
+        label: "Other"
+    },
+    {
+        value: 1.10,
+        color: "#4D5360",
+        highlight: "#616774",
+        label: "CSS"
     }
 
 ];
 
 var dataThree = {
-    labels: ["January", "February", "March", "April", "May", "June", "July"],
+    labels: ["Days Ago: 1", "2", "3", "4", "5", "6", "7"],
     datasets: [
+
         {
-            label: "My First dataset",
-            fillColor: "rgba(220,220,220,0.2)",
-            strokeColor: "rgba(220,220,220,1)",
-            pointColor: "rgba(220,220,220,1)",
-            pointStrokeColor: "#fff",
-            pointHighlightFill: "#fff",
-            pointHighlightStroke: "rgba(220,220,220,1)",
-            data: [65, 59, 80, 81, 56, 55, 40]
-        },
-        {
-            label: "My Second dataset",
+            label: "Hours Coding",
             fillColor: "rgba(151,187,205,0.2)",
             strokeColor: "rgba(151,187,205,1)",
             pointColor: "rgba(151,187,205,1)",
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(151,187,205,1)",
-            data: [28, 48, 40, 19, 86, 27, 90]
+			data: [10, 5, 2, 2, 0, 4, 8]
         }
     ]
 };

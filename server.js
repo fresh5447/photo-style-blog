@@ -12,7 +12,7 @@ var passport = require('passport');
 var flash = require('connect-flash');
 // var twitterRoutes = require('./routes/tweets');
 var githubRoutes = require('./routes/github');
-
+var fetchWakas = require('./routes/waka');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var session = require('express-session');
@@ -82,6 +82,7 @@ require('./routes/user.js')(app, passport);
 
 app.use('/api/blogs', blogRoutes);
 app.use('/api/github', githubRoutes);
+app.use('/api/waka', fetchWakas);
 // app.use('/api/tweets', twitterRoutes);
 // app.use('/api/github', githubRoutes);
 
