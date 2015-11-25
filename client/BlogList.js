@@ -41,7 +41,6 @@ var BlogList = React.createClass({
       } else {
         var user = "NO USER SIGNED IN"
       }
-      console.log("USER INSIDE RENDER LIST", user);
       var self = this;
       var blogData = this.props.data.map(function(blog){
         if(blog.tags.length > 0){
