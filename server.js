@@ -1,3 +1,4 @@
+require('dotenv').load();
 var express = require('express');
 var path = require('path');
 var http = require('http');
@@ -10,7 +11,7 @@ var commentModel = require('./models/comment')
 var morgan = require('morgan');
 var passport = require('passport');
 var flash = require('connect-flash');
-// var twitterRoutes = require('./routes/tweets');
+var twitterRoutes = require('./routes/tweets');
 var githubRoutes = require('./routes/github');
 var fetchWakas = require('./routes/waka');
 var cookieParser = require('cookie-parser');
@@ -83,8 +84,7 @@ require('./routes/user.js')(app, passport);
 app.use('/api/blogs', blogRoutes);
 app.use('/api/github', githubRoutes);
 app.use('/api/waka', fetchWakas);
-// app.use('/api/tweets', twitterRoutes);
-// app.use('/api/github', githubRoutes);
+app.use('/api/tweets', twitterRoutes);
 
 app.get('/test123', function(req, res) {
   req.flash('test', 'it worked');

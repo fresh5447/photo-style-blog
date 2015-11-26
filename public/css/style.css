@@ -133,6 +133,11 @@ section{
     display: block;
 }
 
+.small-img {
+    height: auto;
+    width: 100px;
+}
+
 .chart-row {
     text-align: center;
 }
