@@ -1,19 +1,28 @@
-    <nav class="navbar navbar-inverse navbar-fixed-bottom">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <p style="color:white">DW Tech Consulting LLC</p>
+<script>
+  $(document).scroll(function() {
+
+  var y = $(this).scrollTop();
+  if (y > 800) {
+    $('.footer').fadeIn();
+  } else {
+    $('.footer').fadeOut();
+  }
+});
+</script>
+
+
+<section class="footer">
+  <div class="container">
+        <div class="row">
+        
+          <div class="col-sm-12">
+            <ul class="social-links">
+              <li><i class="fa fa-github"></i></li>
+              <li><i class="fa fa-linkedin"></i></li>
+              <li><i class="fa fa-twitter"></i></li>
+              <li><i class="fa fa-envelope-o"></i></li>
+            </ul>
+          </div>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
-<!--           <ul class="nav navbar-nav">
-            <li class="active"><a href="/">Home</a></li>
-            <li><a href="/blog">Blog</a></li>
-          </ul> -->
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
+  </div>
+</section>

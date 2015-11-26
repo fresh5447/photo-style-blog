@@ -26,10 +26,25 @@ section{
     text-align: center;
 }
 
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
 .social-links {
 	list-style: none;
-	font-size: 78px;
+	font-size: 300%;
+
 	text-align: center;
+}
+
+.social-links .fa {
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .social-links li{
