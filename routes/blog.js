@@ -2,19 +2,11 @@ var express = require('express');
 var router = express.Router();
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
+
 router.use(bodyParser.urlencoded({
   extended: true
-}))
+})); 
 
-function isLoggedIn(req, res, next) {
-  console.log('is logged in is being called')
-    // if user is authenticated in the session, carry on 
-  if (req.isAuthenticated())
-    return next();
-
-  // if they aren't redirect them to the home page
-  res.redirect('/');
-}
 
 var validBlogs = [];
 
@@ -49,8 +41,6 @@ router.route('/')
       });
   })
 
-
-
 .post(function(req, res) {
   console.log(req.body);
   var title = req.body.title;
@@ -75,7 +65,7 @@ router.route('/')
 });
 
 router.route('/user')
-  /* GET All Blogs */
+ 
   .get(function(req, res) {
 
     if (req.user) {
@@ -95,7 +85,7 @@ router.route('/user')
         user: "anonymous"
       })
     }
-  })
+})
 
 router.route('/:id')
   .get(function(req, res) {
@@ -110,8 +100,6 @@ router.route('/:id')
   })
 
 .put(function(req, res) {
-  console.log(req.params.title + "-----------------------------------------------------------------REQUEST");
-
   mongoose.model('Blog').findById({
     _id: req.params.id
   }, function(err, blog) {
@@ -183,7 +171,7 @@ router.route('/:id/comments')
       });
   });
 
-router.route('/:id/comment', isLoggedIn)
+router.route('/:id/comment')
   .post(function(req, res) {
     mongoose.model('Comment').create({
       body: req.body.body,

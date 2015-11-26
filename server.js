@@ -89,9 +89,7 @@ app.use('/api/waka', fetchWakas);
 app.get('/test123', function(req, res) {
   req.flash('test', 'it worked');
   res.redirect('/test')
-});
-
-app.get('/test', function(req, res) {
+});app.get('/test', function(req, res) {
   req.flash('test');
 });
 

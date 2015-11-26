@@ -1,4 +1,5 @@
 var React =require('react');
+var ReactDOM = require('react-dom');
 var BlogBox = require('./BlogBox');
 
-React.render(<BlogBox url="/api/blogs"/>, document.getElementById('BlogList'));
+ReactDOM.render(<BlogBox url="/api/blogs"/>, document.getElementById('BlogList'));

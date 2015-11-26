@@ -1,8 +1,8 @@
 var React = require('react');
 var GitBox = require('./GitData');
-// var Twitter = require('./Twitter');
-var WakaChart = require('./chart')
+var ReactDOM = require('react-dom');
+var WakaChart = require('./chart');
 
-React.render(<GitBox url='/api/github'/>, document.getElementById("Github"));
+ReactDOM.render(<GitBox url='/api/github'/>, document.getElementById("Github"));
 // React.render(<Twitter/>, document.getElementById("Twitter"));
-React.render(<WakaChart/>, document.getElementById("Chart"));
+ReactDOM.render(<WakaChart/>, document.getElementById("Chart"));

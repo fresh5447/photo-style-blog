@@ -1,8 +1,25 @@
 var React = require('react');
+var prettydate = require("pretty-date");
 
 var Github = React.createClass({
 	render: function(){
+
     var gitStuff = this.props.data.map(function (g){
+      if(g.type === "PushEvent"){
+        var whatHappened = 
+          <p><i className="fa fa-code-fork">commit</i></p>
+          
+      } else if (g.type === "CreateEvent"){
+        var whatHappened = 
+          <p><i className="fa fa-plus">repo created</i></p>
+          
+      } else {
+        var whatHappened = 
+          <p><i className="fa fa-heart">repo saved</i></p>
+          
+      }
+
+      var id = g.info;
       if (g.coms) {
         var commitInfo = g.coms.map(function (c){
           return(
@@ -15,18 +32,12 @@ var Github = React.createClass({
       };
       
       return(
-        <div className="col-md-4">
-          <div className="panel panel-default gitub-box">
-            <h3 className="panel-header"><i className="fa fa-code-fork">
-              </i> {g.repo}</h3>
-            <div className="panel-body">
-               {commitInfo}
-            </div>
-            <div className="panel-footer">
-            <p> {g.timeStamp}</p>
-            </div>
+
+          <div className="col-md-3 git-box">
+              {whatHappened}
+              <h3>{g.repo}</h3>              
+              <p> {g.timeStamp.substr(0,10)} </p>
           </div>
-        </div>
       )
     });
 
@@ -35,7 +46,6 @@ var Github = React.createClass({
         {gitStuff}
       </div>
       );
-
 	
 	}
 })

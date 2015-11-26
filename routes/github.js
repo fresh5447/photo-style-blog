@@ -20,7 +20,8 @@ fetchGithubEvents = function(req, res) {
 					'id': g.id,
 					'timeStamp': g.created_at,
 					'repo': g.repo.name,
-					'coms': coms
+					'coms': coms,
+					'type': g.type
 				}
 			});
 			res.json(myEvents);

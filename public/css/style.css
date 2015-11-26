@@ -5,6 +5,7 @@ body {
 section{
 	margin: 20px 0 20px 0;
 	padding: 30px 0 30px 0;
+    background: #ecf0f1;
 }
 
 .blog-body{
@@ -49,6 +50,21 @@ section{
     background-color: #fff;
 }
 
+.git-box {
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    padding: 10px 25px;
+    display: block;
+    margin: 10px;
+    color: black;
+    background-color: #fff;
+}
+
+.git-box i{
+    color: red;
+    margin: 5px;
+}
+
 .github-box {
 	border-radius: 3px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -60,6 +76,13 @@ section{
     margin-left: 15px;
     color: black;
     background-color: #fff;
+}
+
+.my-img{
+    height: 230px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
 .comment-box {
 	border-radius: 3px;
@@ -73,13 +96,55 @@ section{
     background-color: #fff;
 }
 
+.custom-section{
+    margin: 0 !important;
+}
+
+.custom-section-logos {
+    margin: 0 !important;
+    background: white;
+}
+
+.custom-section-logos li {
+    list-style: none;
+}
+
+.logos{
+    list-style: none;
+    border: none;
+    height: auto;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
 .section-header{
-	background: #222;
-	border-color: #080808;
+
+
+    padding: 0;
+    margin: 10px;
+    color: #fff;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.3em;
+    text-shadow: -1px -1px white;
+    font-weight: normal;
+
+}
+
+.my-nav{
+    background: white;
+}
+
+section{
+     box-shadow: 0 0 0 4px #34495e, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+     background: white;
 }
 
 .section-header h3 {
-	color: white;
+	color: #2c3e50;
 	font-size: 36px;
 	margin: 20px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
