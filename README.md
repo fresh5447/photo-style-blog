@@ -1,1 +1,1 @@
-# photo-album-bootstrap-template
+# blog engine using node and react
