@@ -30,13 +30,13 @@ var Twitter = React.createClass({
       var created = t.created_at;
       console.log(t.created_at);
       return (
-        <div class="panel panel-default box col-md-3">
-          <h3> {sName} </h3>
-          <div class="panel-body">
-            <div class="pull-left">
-              <img src={uImg} className="small-img thumbnail" alt=""/>
+        <div className="box col-md-3 twitter-card">
+          <h3 id="twitter-user"> {sName} </h3>
+          <div className="panel-body">
+            <div className="pull-left">
+              <img src={uImg} id="twitter-img" className="small-img thumbnail" alt=""/>
             </div>
-            <div class="pull-right">
+            <div className="pull-right">
 
               <p>{tBody} </p>
   

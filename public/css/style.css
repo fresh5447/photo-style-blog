@@ -129,6 +129,24 @@ section{
     background-color: #fff;
 }
 
+.twitter-card {
+    border: solid 3px #9d9d9d;
+    margin: 0 10px 10px 5%;
+}
+
+#twitter-img{
+    height: auto;
+    width: 159%;
+    float: left;
+    position: relative;
+    top: -74px;
+    left: -32px;
+}
+
+#twitter-user {
+    font-size: 150%;
+}
+
 .git-box {
     border-radius: 3px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
