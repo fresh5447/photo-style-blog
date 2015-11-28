@@ -188,11 +188,15 @@ section{
     list-style: none;
 }
 
+#larger-logo {
+    width: 40%;
+}
+
 .logos{
     list-style: none;
     border: none;
     height: auto;
-    width: 200px;
+    width: 20%;
     margin-left: auto;
     margin-right: auto;
     display: block;

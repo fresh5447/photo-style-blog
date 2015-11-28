@@ -24,7 +24,9 @@ fetchGithubEvents = function(req, res) {
 					'type': g.type
 				}
 			});
-			res.json(myEvents);
+
+			
+			res.json(myEvents.slice(Math.max(myEvents.length - 6, 1)));
 		})
 		.catch(function(response) {
 			console.log(response);
